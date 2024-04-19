@@ -1,0 +1,23 @@
+.navbar-container{
+    background-color: white;
+   
+    .navbar-content{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .title-navbar{
+            background-color: white;
+        }
+            
+        .liens-navbar{
+            background-color: red;
+
+            .lien-nav{
+                background-color: pink;
+
+            }
+        }
+    }
+}
+
