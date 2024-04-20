@@ -1,12 +1,12 @@
 import '../Sass/Header.scss'
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
         <>
             <div className="navbar-container">
+                <p className="title-navbar">S.GOULONG</p>
                 <div className="navbar-content">
-                    <p className="title-navbar">SGOULONG</p>
                     <div className="liens-navbar">
                         <Link to="/" className="lien-nav">
                             Accueil
@@ -15,17 +15,18 @@ function Header() {
                             Presentation
                         </Link>
                         <Link to="/" className="lien-nav">
-                            Realisations
+                            Réalisations
                         </Link>
                         <Link to="/" className="lien-nav">
-                            Skills
+                            Compétences
+                        </Link>
+                        <Link to="/" className="lien-nav">
+                            Mon CV
                         </Link>
                         <Link to="/" className="lien-nav">
                             Contact
                         </Link>
-                        <Link to="/" className="lien-nav">
-                            Resume
-                        </Link>
+                        
                     </div>
                 </div>
             </div>
