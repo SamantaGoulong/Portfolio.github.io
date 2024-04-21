@@ -1,12 +1,7 @@
 //import './Sass/Error.scss'
 
-
 function Error() {
-    return (
-        <>
-           
-        </>
-    )
+    return <></>
 }
 
 export default Error

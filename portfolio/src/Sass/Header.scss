@@ -1,35 +1,55 @@
-.navbar-container{
+.navbar-container {
     width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
     padding: 10px 0px 10px 0px;
     color: black;
+    position: fixed; /* Fixer la navbar en haut de la page */
+    top: 0; /* Positionner la navbar au haut de la fenêtre */
 
-    .title-navbar{
-        margin: 30px;
+    z-index: 1000; /* Assurer que la navbar est au-dessus du contenu */
+
+    background-color: white; /* Fond blanc pour la navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère pour la navbar */
+    .title-navbar {
+        margin: 0 30px;
         display: flex;
-        justify-content: flex-start;
+        //justify-content: flex-start;
         font-size: 25px;
         font-weight: 700;
     }
 
-    .navbar-content{
+    .navbar-content {
         width: 100%;
         display: flex;
         justify-content: flex-end;
+        flex-grow: 1; /* Permettre à la barre de navigation de s'étendre pour les liens */
 
-        .liens-navbar{
-            margin: 30px;
-
-            .lien-nav{
-                margin: 30px;
+        .liens-navbar {
+            //margin: 30px;
+            margin-right: 30px; /* Ajuster la marge à droite */
+            .lien-nav {
+                margin: 0 10px; /* Ajuster la marge autour des liens */
+                //margin: 30px;
                 text-decoration: none;
                 font-size: 20px;
                 font-weight: 700;
                 color: black;
-            } 
+
+                transition: color 0.3s ease; /* Transition de couleur au survol */
+                &:hover {
+                    background-color: blue; /* Couleur au survol */
+                }
+
+                &:active {
+                    background-color: red; /* Couleur lors du clic */
+                }
+
+                &.active {
+                    background-color: green; /* Couleur lorsque le lien est actif */
+                }
+            }
         }
     }
 }
-

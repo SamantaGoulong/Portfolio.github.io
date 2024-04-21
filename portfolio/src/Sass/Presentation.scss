@@ -1,0 +1,30 @@
+.presentation-container {
+    background-color: red;
+    height: 100vh;
+    //height: 250px;
+    display: flex;
+    background-color: hwb(176 91% 4% / 0.753);
+
+    .presentation-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        //padding: 0px 400px 50px 400px;
+        //
+        //margin: 50px;
+
+        .presentation-title {
+            font-size: 30px;
+            margin-bottom: 40px;
+            color: black;
+        }
+
+        .presentation-text {
+            font-size: 20px;
+            text-align: center;
+            margin: 0px 300px 0px 300px;
+            color: black;
+        }
+    }
+}

@@ -1,18 +1,18 @@
-.home-container{
+.home-container {
     width: 100%;
-    height: 500px;
-    background-image: url(../assets/ordinateur.jpg) ;
-    background-repeat: no-repeat ;
-    background-size: cover;
+    //height: 500px;
+    height: 100vh;
+    background-image: url(../assets/ordinateur.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
-    padding-left: 50px;
     position: relative;
     z-index: 20;
 
     &::before {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         left: 0;
@@ -20,31 +20,49 @@
         height: 100%;
         background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond avec opacité */
         filter: brightness(70%) contrast(120%); /* Filtre à appliquer sur l'image */
-        
     }
 
-    .home-content{ 
+    .home-content {
         width: 100%;
         z-index: 1;
+        padding-left: 50px;
 
-        .home-text{
+        .home-text {
             margin-bottom: 40px;
             color: white;
-            h1{
+
+            h1 {
                 font-size: 70px;
                 margin-bottom: 10px;
+                /* Décalage pour le h1 */
+                transform: translateX(100%);
+                transition: transform 1.7s ease 0.9s; /* Animation avec décalage de 0.3s */
             }
 
-            h2{
-                font-size: 30px; 
+            h2 {
+                font-size: 30px;
+                /* Décalage pour le h2 */
+                transform: translateX(100%);
+                transition: transform 1.7s ease 1.2s; /* Animation avec décalage de 0.6s */
             }
         }
-        
-        .home-buttons-container{
+        &.animate {
+            h1 {
+                /* Définir la position finale (à gauche) lorsque l'animation est déclenchée */
+                transform: translateX(0);
+            }
+
+            h2 {
+                /* Définir la position finale (à gauche) lorsque l'animation est déclenchée */
+                transform: translateX(0);
+            }
+        }
+
+        .home-buttons-container {
             display: flex;
             gap: 20px;
-            
-            button{
+
+            button {
                 width: 200px;
                 height: 50px;
                 font-size: 20px;
