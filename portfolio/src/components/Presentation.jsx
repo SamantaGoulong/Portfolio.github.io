@@ -1,17 +1,21 @@
 import '../Sass/Presentation.scss'
+import avatarFemme from '../assets/avatarFemme.webp'
 
 function Presentation() {
     return (
         <>
             <div id="presentation" className="presentation-container">
+                <div className="presentation-portrait">
+                    <img src={avatarFemme} alt="Portrait de Samanta GOULONG" />
+                </div>
                 <div className="presentation-content">
                     <h2 className="presentation-title">Présentation</h2>
+                    <h2 className="presentation-back-title">A PROPROS DE MOI</h2>
                     <p className="presentation-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.rupti quo ab
-                        deserunt voltate mollitia harum.Lorem ipsum, dolor sit amet consectetur
-                        adips quasi vero? ris nihil cupiditate mollitia harum deserunt voltate
-                        mollitia harum.Lorem ipsum, dolor sit amet consectetur adips quasi vero? ris
-                        nihil cupiditate mollitia harum
+                        "Passionnée par le développement web et la création d'interfaces à la fois
+                        créatives et fonctionnelles, je mets ma formation solide en intégration web
+                        et mon expérience pratique au service de la conception d'expériences en
+                        ligne attrayantes et conviviales."
                     </p>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import '../Sass/Footer.scss'
 
+
 function Footer() {
     return (
         <>
