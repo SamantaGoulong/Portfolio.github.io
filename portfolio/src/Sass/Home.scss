@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    z-index: 20;
+    z-index: 2;
 
     &::before {
         content: '';
@@ -18,7 +18,7 @@
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond avec opacité */
-        filter: brightness(70%) contrast(120%); /* Filtre à appliquer sur l'image */
+        filter: brightness(70%) contrast(100%); /* Filtre à appliquer sur l'image */
     }
 
     .home-content {
@@ -30,29 +30,36 @@
             margin-bottom: 40px;
             color: white;
 
-            h1 {
-                font-size: 70px;
+            h2 {
+                font-size: 60px;
                 margin-bottom: 10px;
+                font-family: 'Signika Negative', sans-serif;
+                font-weight: 300;
+                font-style: normal;
                 /* Décalage pour le h1 */
                 transform: translateX(100%);
                 transition: transform 1.7s ease 0.9s; /* Animation avec décalage de 0.3s */
+                
+                @media screen and (max-width: 1024px) {
+                    font-size: 40px;
+                }
             }
 
-            h2 {
-                font-size: 30px;
+            h3 {
+                font-size: 25px;
                 /* Décalage pour le h2 */
-                
+
                 transform: translateX(100%);
                 transition: transform 1.7s ease 1.2s; /* Animation avec décalage de 0.6s */
             }
         }
         &.animate {
-            h1 {
+            h2 {
                 /* Définir la position finale (à gauche) lorsque l'animation est déclenchée */
                 transform: translateX(0);
             }
 
-            h2 {
+            h3 {
                 /* Définir la position finale (à gauche) lorsque l'animation est déclenchée */
                 transform: translateX(0);
             }
@@ -61,16 +68,18 @@
         .home-buttons-container {
             display: flex;
             gap: 20px;
-
+            @media screen and (max-width: 1024px) {
+                flex-wrap: wrap;
+            }
             button {
-                width: 200px;
-                height: 50px;
-                font-size: 20px;
+                width: 190px;
+                height: 40px;
+                font-size: 15px;
                 border-radius: 15px;
                 border-color: white;
                 background-color: black;
                 color: white;
-                
+
                 &:hover {
                     background-color: lightgrey;
                     color: black;

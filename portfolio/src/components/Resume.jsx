@@ -5,7 +5,7 @@ function Resume() {
         <>
             <div id="cv" className="resume-container">
                 <div class="resume-content">
-                    <p>CV FDJKLGMSFKGNSMGNK</p>
+                    <h3 className="resume-title"> Mon CV </h3>
                 </div>
             </div>
         </>

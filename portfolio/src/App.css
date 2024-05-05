@@ -69,6 +69,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+
 }
 ol, ul {
 	list-style: none;

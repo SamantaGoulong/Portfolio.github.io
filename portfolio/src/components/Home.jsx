@@ -17,14 +17,14 @@ function Home() {
                 {/* ... */}
                 <div className={`home-content ${isAnimated ? 'animate' : ''}`}>
                     <div className="home-text">
-                        <h1>Samanta GOULONG</h1>
-                        <h2>Intégratrice Web Junior</h2>
+                        <h2>Samanta GOULONG</h2>
+                        <h3>Intégratrice Web Junior</h3>
                     </div>
                     <div className="home-buttons-container">
                         {/* <Link to="/competences#competences">
                             <button>Aller au Portfolio</button>
                         </Link> */}
-                        <a href="#competences" className="lien-nav">
+                        <a href="#realisations" className="lien-nav">
                             <button>Aller au Portfolio</button>
                         </a>
                         {/* <Link to="/resume"></Link> */}

@@ -31,7 +31,7 @@ function Header() {
 
     return (
         <div className="navbar-container">
-            <p className="title-navbar">S.GOULONG</p>
+            <h1 className="title-navbar">S.GOULONG</h1>
             <div className="navbar-content">
                 <div className="liens-navbar">
                     <a

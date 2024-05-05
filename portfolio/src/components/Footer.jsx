@@ -9,10 +9,7 @@ function Footer() {
                     <i class="fa-regular fa-envelope"></i>
                     <i class="fa-brands fa-linkedin"></i>
                     <i class="fa-brands fa-github"></i>
-                    <p className="footer-text">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.rupti quo ab
-                        <br />
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.rupti quo ab
+                    <p className="footer-text"> Copyright © 2024. Tous droits réservés Samanta GOULONG
                     </p>
                 </div>
             </div>

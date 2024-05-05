@@ -4,21 +4,22 @@ function Contact() {
     return (
         <>
             <div id="contact" className="contact-container">
-                <div class="contact-content">
-                    <h2>Contact</h2>
-                    <p>Envie de démarrer un projet ? N'hésitez pas à me contacter !</p>
-                    <div class="form-content">
+                <div className="contact-content">
+                    <div className="contact-content-text">
+                        <h3>Contact</h3>
+                        <h4>Envie de démarrer un projet ? N'hésitez pas à me contacter !</h4>
+                    </div>
+                    <div className="form-content">
                         <form method="post">
-                            <label for="nom">Nom :</label>
+                            <label for="nom">Nom </label>
                             <input type="text" name="nom" id="nom" />
-                            <br />
-                            <label for="email">Email :</label>
+                            <label for="email">Email </label>
                             <input type="email" name="email" id="email" />
-                            <br />
-                            <label for="message">Message :</label>
+                            <label for="message">Message </label>
                             <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                            <br />
-                            <input type="submit" value="Envoyer" />
+                            <div className="send">
+                                <input type="submit" value="Envoyer" className="send-button" />
+                            </div>
                         </form>
                     </div>
                     {/* <div class="picture right">

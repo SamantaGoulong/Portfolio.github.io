@@ -9,13 +9,16 @@ function Presentation() {
                     <img src={avatarFemme} alt="Portrait de Samanta GOULONG" />
                 </div>
                 <div className="presentation-content">
-                    <h2 className="presentation-title">Présentation</h2>
-                    <h2 className="presentation-back-title">A PROPROS DE MOI</h2>
+                    <h3 className="presentation-title">Présentation</h3>
+                    <h4 className="presentation-back-title">A PROPROS DE MOI</h4>
                     <p className="presentation-text">
                         "Passionnée par le développement web et la création d'interfaces à la fois
                         créatives et fonctionnelles, je mets ma formation solide en intégration web
                         et mon expérience pratique au service de la conception d'expériences en
-                        ligne attrayantes et conviviales."
+                        ligne attrayantes et conviviales." "Passionnée par le développement web et
+                        la création d'interfaces à la fois créatives et fonctionnelles, je mets ma
+                        formation solide en intégration web et mon expérience pratique au service de
+                        la conception d'expériences en ligne attrayantes et conviviales."
                     </p>
                 </div>
             </div>

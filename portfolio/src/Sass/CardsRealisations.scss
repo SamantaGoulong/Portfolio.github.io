@@ -1,0 +1,41 @@
+.realisations-card-content {
+    width: 30%;
+    display: flex;
+         flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+
+    .card-img {
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px rgb(26, 192, 192);
+        border-radius: 20px;
+        margin-bottom: 5px;
+
+        //         // img{
+
+        //         // }
+    }
+    .card-iconeS {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 10px;
+        button {
+            border-radius: 30px;
+            border: none;
+            padding: 10px 20px;
+
+            //             //             i{}
+            a {
+                text-decoration: none;
+            }
+            //             //             button{}
+            i {
+                font-size: 20px;
+                padding: 0px 2px;
+            }
+        }
+    }
+}
