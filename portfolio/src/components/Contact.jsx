@@ -4,6 +4,7 @@ function Contact() {
     return (
         <>
             <div id="contact" className="contact-container">
+                {/* <div className="contact-container"> */}
                 <div className="contact-content">
                     <div className="contact-content-text">
                         <h3>Contact</h3>
@@ -11,11 +12,11 @@ function Contact() {
                     </div>
                     <div className="form-content">
                         <form method="post">
-                            <label for="nom">Nom </label>
+                            <label htmlFor="nom">Nom </label>
                             <input type="text" name="nom" id="nom" />
-                            <label for="email">Email </label>
+                            <label htmlFor="email">Email </label>
                             <input type="email" name="email" id="email" />
-                            <label for="message">Message </label>
+                            <label htmlFor="message">Message </label>
                             <textarea name="message" id="message" cols="30" rows="10"></textarea>
                             <div className="send">
                                 <input type="submit" value="Envoyer" className="send-button" />

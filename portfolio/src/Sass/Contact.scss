@@ -4,14 +4,14 @@
     justify-content: center;
     align-items: center;
     //background-color: hwb(176 91% 4% / 0.753);
-    background-image: url(../assets/contact1.jpg);
+    background-image: url(../assets/images/contact1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     position: relative;
-    z-index: 2;
+    // z-index: 2;
 
     &::before {
         content: '';
@@ -37,82 +37,61 @@
         z-index: 1;
 
         .contact-content-text {
-            //z-index: 4;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            position: relative;
+            // position: relative;
             h3 {
                 font-size: 25px;
                 margin-bottom: 30px;
-                //z-index: -10;
-                
             }
-            // .contact-back-title {
-            //     font-size: 60px;
-            //     //z-index: 0;
-            //     position: absolute;
-            //      top: 0;
-            //      color: rgb(226, 229, 231);
-            // }
             h4 {
                 font-size: 15px;
                 margin-bottom: 30px;
             }
         }
-        
+
         .form-content {
-            // height: 500px;
-            // width: 320px;
             color: white;
             display: flex;
-            // flex-wrap: wrap;
-            // flex-direction: column;
             justify-content: center;
-            // align-items: center;
-            label{
+            label {
                 display: flex;
-                 font-size: 1em;
-                 margin-bottom: 10px;
+                font-size: 1em;
+                margin-bottom: 10px;
             }
 
-            input{
+            input {
                 display: flex;
                 border-radius: 5px;
                 border: none;
                 margin-bottom: 10px;
                 height: 20px;
-                width:100%;
+                width: 100%;
             }
 
-            textarea{
+            textarea {
                 border-radius: 5px;
                 border: none;
                 margin-bottom: 15px;
-                width:100%;
+                width: 100%;
             }
 
-             .send{
-              display: flex;
+            .send {
+                display: flex;
                 justify-content: center;
                 align-items: center;
-                 
-                .send-button{
-                    width:70px;
-                     height: 40px;
-                     display: flex;
-                justify-content: center;
-                align-items: center;
+                
+                .send-button {
+                    width: 70px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor:pointer ;
                 }
             }
-            //#nom{
-            //     font-size: 20px;
-            // }
-            // #email{
-            //     font-size: 20px;
-            // }
-            //#message{20px}
         }
     }
 }

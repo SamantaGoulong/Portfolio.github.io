@@ -1,22 +1,76 @@
 .skills-container {
-    height: 100vh;
+    //height: 100vh;
+    height: auto;
     padding: 50px;
     //background-color: hwb(176 91% 4% / 0.753);
-     background-color: rgb(28, 26, 36);
+    background-color: rgb(28, 26, 36);
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    //flex-direction: column;
+    //align-items: center;
 
     .skills-content {
-        font-size: large;
+        width: 80%;
         display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        .skills-competences-container {
+            width: 40%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            .skills-competences-title {
+                width: 100%;
+                color: rgb(26, 192, 192);
+                font-size: 30px;
+                margin-bottom: 40px;
+            }
+            .skills-competences-img {
+                width: 20%;
+                height: 200px;
+                margin: 10px 5px;
+                border-radius: 20px;
+            }
+        }
+    }
+    .skills-cv-container {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         
-        .skills-title {
-             color: rgb(26, 192, 192);
+        .skills-cv-title {
+            width: 100%;
+            color: rgb(26, 192, 192);
             font-size: 30px;
             margin-bottom: 40px;
+        }
+        .skills-competences-cv-img{
+            margin-bottom: 20px;
+        }
+        // .skills-cv-text {
+        //     color: white;
+        // }
+
+        .skills-cv-button {
+            width: 200px;
+            height: 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            border-radius: 30px;
+
+            // .skills-cv-icone {
+            //     color: rebeccapurple;
+            // }
+            .skills-cv-link {
+                
+                text-decoration: none;
+            }
         }
     }
 }

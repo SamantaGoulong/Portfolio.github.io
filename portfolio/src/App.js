@@ -10,6 +10,7 @@ import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Error from './pages/Error'
 import Footer from './components/Footer'
+import Test from './pages/Test'
 // import CardsRealisations from './components/CardsRealisations'
 function App() {
     return (
@@ -17,40 +18,12 @@ function App() {
             <Router>
                 <Header />
                 <Routes>
-                    {/* <Route path="/home" element={<Home />} />
-                    <Route path="/presentation" element={<Presentation />} />
-                    <Route path="/realisations" element={<Realisations />} />
-                    <Route path="/skills" element={<Skills />} />
-                    <Route path="/resume" element={<Resume />} />
-                    <Route path="/contact" element={<Contact />} /> */}
+                    <Route
+                        path="/"  element={ <section id="accueil"> <Home /> </section>}/>
+                  
                     <Route path="*" element={<Error />} />
+                    <Route path="/test" element={<Test />} />
                 </Routes>
-                {/* <Presentation />
-                <Realisations />
-                <Skills />
-                <Resume />
-                <Contact />  */}
-
-                {/* Sections avec des identifiants */}
-
-                <section id="accueil">
-                    <Home />
-                </section>
-                <section id="presentation">
-                    <Presentation />
-                </section>
-                <section id="realisations">
-                    <Realisations />
-                </section>
-                <section id="competences">
-                    <Skills />
-                </section>
-                <section id="cv">
-                    <Resume />
-                </section>
-                <section id="contact">
-                    <Contact />
-                </section>
 
                 <Footer />
             </Router>

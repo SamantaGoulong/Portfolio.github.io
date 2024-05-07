@@ -4,7 +4,8 @@ function Resume() {
     return (
         <>
             <div id="cv" className="resume-container">
-                <div class="resume-content">
+                {/* <div className="resume-container"> */}
+                <div className="resume-content">
                     <h3 className="resume-title"> Mon CV </h3>
                 </div>
             </div>

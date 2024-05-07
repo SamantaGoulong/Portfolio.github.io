@@ -1,10 +1,11 @@
 import '../Sass/Presentation.scss'
-import avatarFemme from '../assets/avatarFemme.webp'
+import avatarFemme from '../assets/images/avatarFemme.webp'
 
 function Presentation() {
     return (
         <>
-            <div id="presentation" className="presentation-container">
+            {/* <div className="presentation-container"> */}
+                <div id="presentation" className="presentation-container">
                 <div className="presentation-portrait">
                     <img src={avatarFemme} alt="Portrait de Samanta GOULONG" />
                 </div>

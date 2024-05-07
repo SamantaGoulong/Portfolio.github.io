@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import '../Sass/Home.scss'
-// import { Link } from 'react-router-dom'
+import Presentation from '../components/Presentation'
+import Realisations from '../components/Realisations'
+import Skills from '../components/Skills'
+import Contact from '../components/Contact'
+import Resume from '../components/Resume'
+import { Link } from 'react-router-dom'
 
 function Home() {
 
@@ -14,6 +19,7 @@ function Home() {
     return (
         <>
             <div id="accueil" className="home-container">
+                {/* <div className="home-container"> */}
                 {/* ... */}
                 <div className={`home-content ${isAnimated ? 'animate' : ''}`}>
                     <div className="home-text">
@@ -34,6 +40,21 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <section id="presentation">
+                <Presentation />
+            </section>
+            <section id="realisations">
+                <Realisations />
+            </section>
+            <section id="competences">
+                <Skills />
+            </section>
+            <section id="cv">
+                <Resume />
+            </section>
+            <section id="contact">
+                <Contact />
+            </section>
         </>
     )
 }
