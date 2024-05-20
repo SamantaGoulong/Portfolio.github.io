@@ -1,7 +1,7 @@
 .home-container {
     width: 100%;
     height: 100vh;
-    background-image: url(../assets/images/ordinateur.jpg);
+    background-image: url(../assets/images/ordinateur.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,13 +25,26 @@
         width: 100%;
         z-index: 1;
         padding-left: 50px;
-
+        // @media screen and (max-width: 1024px) {
+        //     font-size: 15px;
+        // }
+        // @media screen and (max-width: 768px) {
+        //     font-size: 20px;
+        // }
+        @media screen and (max-width: 320px) {
+            padding-left: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
         .home-text {
             margin-bottom: 40px;
             color: rgb(10, 193, 206);
             //color:rgb(26, 192, 192);
+
             h2 {
-                font-size: 60px;
+                font-size: 50px;
                 margin-bottom: 10px;
                 font-family: 'Signika Negative', sans-serif;
                 font-weight: 300;
@@ -40,8 +53,11 @@
                 transform: translateX(100%);
                 transition: transform 1.7s ease 0.9s; /* Animation avec décalage de 0.3s */
 
-                @media screen and (max-width: 1024px) {
+                @media screen and (max-width: 768px) {
                     font-size: 40px;
+                }
+                @media screen and (max-width: 320px) {
+                    font-size: 30px;
                 }
             }
 
@@ -51,6 +67,13 @@
 
                 transform: translateX(100%);
                 transition: transform 1.7s ease 1.2s; /* Animation avec décalage de 0.6s */
+
+                @media screen and (max-width: 768px) {
+                    font-size: 20px;
+                }
+                @media screen and (max-width: 320px) {
+                    font-size: 15px;
+                }
             }
         }
         &.animate {
@@ -68,9 +91,11 @@
         .home-buttons-container {
             display: flex;
             gap: 20px;
-            @media screen and (max-width: 1024px) {
-                flex-wrap: wrap;
-            }
+             @media screen and (max-width: 320px) {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
             button {
                 width: 190px;
                 height: 40px;

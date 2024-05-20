@@ -54,9 +54,6 @@ function Header() {
                         className={`lien-nav ${activeLink === 'competences' ? 'active' : ''}`}>
                         Compétences
                     </a>
-                    <a href="#cv" className={`lien-nav ${activeLink === 'cv' ? 'active' : ''}`}>
-                        Mon CV
-                    </a>
                     <a
                         href="#contact"
                         className={`lien-nav ${activeLink === 'contact' ? 'active' : ''}`}>

@@ -1,0 +1,37 @@
+[
+    {
+        "image": "html5.webp",
+        "name": "Html5",
+        "description": "HTML est un langage informatique utilisé pour créer et organiser le contenu visuel et structurel des pages web, permettant aux navigateurs internet de lire et d'afficher les informations telles que textes, images, liens et vidéos sur Internet."
+    },
+    {
+        "image": "css3.webp",
+        "name": "Css3",
+        "description": " CSS est un langage de feuilles de style utilisé pour styliser et mettre en forme les éléments HTML d'une page web, contrôlant leur apparence visuelle, leur positionnement et leurs effets."
+    },
+    {
+        "image": "sass.webp",
+        "name": "Sass",
+        "description": "  Sass est extension de CSS qui ajoute des fonctionnalités supplémentaires et rend l'écriture de feuilles de style plus efficace en permettant l'utilisation de variables, de mixins, de fonctions et de structures de contrôle."
+    },
+    {
+        "image": "javaScript.webp",
+        "name": "JavaScript",
+        "description": " JavaScript est un langage de programmation utilisé pour créer des interactions dynamiques sur les pages web, permettant d'ajouter des fonctionnalités telles que des animations, des calculs en temps réel, la manipulation du contenu HTML et la gestion des événements utilisateur."
+    },
+    {
+        "image": "react.webp",
+        "name": "React",
+        "description": " React est une bibliothèque JavaScript utilisée pour la création d'interfaces utilisateur interactives et dynamiques, en permettant la construction de composants réutilisables qui gèrent leur propre état et qui peuvent être combinés pour former des applications web complexes."
+    },
+    {
+        "image": "figma.webp",
+        "name": "Figma",
+        "description": " Figma est une application de conception d'interface utilisateur (UI) basée sur le cloud, qui permet aux designers de créer, de collaborer et de prototyper des maquettes interactives pour les sites web, les applications mobiles et d'autres interfaces utilisateur, le tout dans un environnement de travail en temps réel et accessible en ligne."
+    },
+    {
+        "image": "wordpress.webp",
+        "name": "Wordpress",
+        "description": "WordPress est une plateforme de gestion de contenu (CMS) open source largement utilisée pour la création et la gestion de sites web, offrant une interface conviviale et flexible ainsi qu'une grande variété de thèmes et de plugins pour personnaliser et étendre les fonctionnalités du site sans avoir besoin de compétences de développement avancées. "
+    }
+]

@@ -72,5 +72,16 @@
                 "Figma": "fa-brands fa-figma"
             }
         ]
+    },
+      {
+        "id": "5",
+        "title": "KA",
+        "picture": "contact6.jpg",
+        "linkGithub": "https://github.com",
+        "tags": [
+            {
+                "REACT": "fa-brands fa-react"
+            }
+        ]
     }
 ]

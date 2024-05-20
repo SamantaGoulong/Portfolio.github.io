@@ -4,8 +4,7 @@ import Presentation from '../components/Presentation'
 import Realisations from '../components/Realisations'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
-import Resume from '../components/Resume'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function Home() {
 
@@ -34,7 +33,7 @@ function Home() {
                             <button>Aller au Portfolio</button>
                         </a>
                         {/* <Link to="/resume"></Link> */}
-                        <a href="#cv" className="lien-nav">
+                        <a href="#competences" className="lien-nav">
                             <button>Consulter mon CV</button>
                         </a>
                     </div>
@@ -48,9 +47,6 @@ function Home() {
             </section>
             <section id="competences">
                 <Skills />
-            </section>
-            <section id="cv">
-                <Resume />
             </section>
             <section id="contact">
                 <Contact />

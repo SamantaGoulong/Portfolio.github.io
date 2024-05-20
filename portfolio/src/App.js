@@ -3,14 +3,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Header from './components/Header'
 import Home from './components/Home'
-import Presentation from './components/Presentation'
-import Realisations from './components/Realisations'
-import Skills from './components/Skills'
-import Contact from './components/Contact'
-import Resume from './components/Resume'
+// import Presentation from './components/Presentation'
+// import Realisations from './components/Realisations'
+// import Skills from './components/Skills'
+// import Contact from './components/Contact'
 import Error from './pages/Error'
 import Footer from './components/Footer'
-import Test from './pages/Test'
+
 // import CardsRealisations from './components/CardsRealisations'
 function App() {
     return (
@@ -22,7 +21,6 @@ function App() {
                         path="/"  element={ <section id="accueil"> <Home /> </section>}/>
                   
                     <Route path="*" element={<Error />} />
-                    <Route path="/test" element={<Test />} />
                 </Routes>
 
                 <Footer />
