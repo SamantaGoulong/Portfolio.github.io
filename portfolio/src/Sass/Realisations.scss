@@ -4,15 +4,22 @@
     background-color: rgb(37, 34, 46);
     justify-content: center;
     //align-items: center;
+    @media screen and (max-width: 768px) {
+    }
+    @media screen and (max-width: 320px) {
+        display: flex;
+        flex-direction: column;
+    }
     .realisations-content {
-        // background-color: rebeccapurple;
+        //background-color: rebeccapurple;
         width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+
         //text-align: center;
 
         //     font-size: large;
@@ -24,38 +31,42 @@
         //     align-items: center;
         //     z-index: 1;
         //     position: relative;
+        margin-top: 40px;
+
         .realisations-content-text {
             text-align: center;
 
             .realisations-title {
                 // margin-top: 50px;
-                
-                font-size:60px;
+                padding-bottom: 50px;
+                font-size: 60px;
                 //         margin-bottom: 40px;
                 color: rgb(26, 192, 192);
 
                 //         z-index: 5;
-                 //        position: absolute;
+                //        position: absolute;
                 //         top: 0; /* Alignement en haut par rapport au parent */
                 //         left: 10;
                 //         margin-top: 205px;
-            }
-            .realisations-back-title {
-                font-size: 90px;
-                //         z-index: 2;
-                       //  position: absolute;
-                //         top: 190px; /* Alignement en haut par rapport au parent */
-                //         // left: 10;
-                //         // margin-top: 190px;
-
-                color: rgba(226, 229, 231, 0.116);
+                @media screen and (max-width: 320px) {
+                    padding-bottom: 20px;
+                    font-size: 30px;
+                }
             }
         }
         .realisations-card-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-
+            // @media screen and (max-width: 768px) {
+              
+            // }
+            @media screen and (max-width: 320px) {
+                width: 100%;
+                display: flex;
+                
+                justify-content: center;
+            }
         }
     }
 }

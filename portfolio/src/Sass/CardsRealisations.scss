@@ -4,7 +4,14 @@
     flex-wrap: wrap;
     flex-direction: column;
     margin: 20px 25px;
+    // @media screen and (max-width: 768px) {
 
+    // }
+    @media screen and (max-width: 320px) {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
     .card-images {
         height: 350px;
         display: flex;
@@ -14,7 +21,6 @@
         border: solid 2px rgb(26, 192, 192);
         border-radius: 20px;
         margin-bottom: 5px;
-        
 
         .img-card {
             // width: 470px;
@@ -22,7 +28,6 @@
             height: 250px;
             display: flex;
             justify-content: center;
-            
         }
         // h5 {
         //     color: rgb(26, 192, 192);

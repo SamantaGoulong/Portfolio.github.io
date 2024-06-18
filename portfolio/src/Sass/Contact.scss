@@ -25,7 +25,7 @@
     }
     .contact-content {
         width: 40%;
-        height: 500px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -35,27 +35,39 @@
         border-radius: 25px;
         color: white;
         z-index: 1;
+        // @media screen and (max-width: 768px) {
 
+        // }
+        @media screen and (max-width: 320px) {
+            width: 100%;
+            padding: 0 15px;
+            margin:0 20px;
+        }
+ 
         .contact-content-text {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             // position: relative;
+            
             h3 {
                 font-size: 25px;
-                margin-bottom: 30px;
+                padding: 40px 0px;
             }
             h4 {
                 font-size: 15px;
-                margin-bottom: 30px;
+                padding-bottom: 30px;
+           //     background-color: pink;
             }
         }
 
         .form-content {
+            width: 100%;
             color: white;
             display: flex;
             justify-content: center;
+            
             label {
                 display: flex;
                 font-size: 1em;
@@ -64,7 +76,7 @@
 
             input {
                 display: flex;
-                border-radius: 5px;
+                border-radius: 25px;
                 border: none;
                 margin-bottom: 10px;
                 height: 20px;
@@ -72,7 +84,7 @@
             }
 
             textarea {
-                border-radius: 5px;
+                border-radius: 20px;
                 border: none;
                 margin-bottom: 15px;
                 width: 100%;
@@ -82,14 +94,22 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                
+                margin-bottom: 40px;
+
                 .send-button {
-                    width: 70px;
+                    width: 150px;
                     height: 40px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    cursor:pointer ;
+                    cursor: pointer;
+                    border-radius: 25px;
+                    // @media screen and (max-width: 768px) {
+
+                    // }
+                    @media screen and (max-width: 320px) {
+                        width: 100px;
+                    }
                 }
             }
         }
