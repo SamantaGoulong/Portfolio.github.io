@@ -28,11 +28,11 @@ function Home() {
                     {/* Section des boutons de la page d'accueil */}
                     <div className="home-buttons-container">
                         {/* Lien vers la section Réalisations */}
-                        <a href="#realisations" className="lien-nav">
+                        <a href="#realisations">
                             <button>Aller au Portfolio</button>
                         </a>
                         {/* Lien vers la section Compétences */}
-                        <a href="#competences" className="lien-nav">
+                        <a href="#competences">
                             <button>Consulter mon CV</button>
                         </a>
                     </div>

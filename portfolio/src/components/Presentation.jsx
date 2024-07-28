@@ -33,30 +33,30 @@
 import React from 'react'
 import '../Sass/Presentation.scss'
 import avatarFemme from '../assets/images/avatarFemme.webp'
-import useIntersectionObserver from '../hooks/useIntersectionObserver.jsx'
 
 function Presentation() {
-    const [containerRef, isVisible] = useIntersectionObserver({ threshold: 0.1 })
 
     return (
         <div
             id="presentation"
-            ref={containerRef}
-            className={`presentation-container ${isVisible ? 'animate' : ''}`}>
-            <div className="presentation-portrait">
-                <img src={avatarFemme} alt="Portrait de Samanta GOULONG" />
-            </div>
-            <div className={`presentation-content ${isVisible ? 'animate' : ''}`}>
-                <h3 className="presentation-title">Présentation</h3>
-                <p className="presentation-text">
-                    "Passionnée par le développement web et la création d'interfaces à la fois
-                    créatives et fonctionnelles, je mets ma formation solide en intégration web et
-                    mon expérience pratique au service de la conception d'expériences en ligne
-                    attrayantes et conviviales." "Passionnée par le développement web et la création
-                    d'interfaces à la fois créatives et fonctionnelles, je mets ma formation solide
-                    en intégration web et mon expérience pratique au service de la conception
-                    d'expériences en ligne attrayantes et conviviales."
-                </p>
+            className={`presentation-container `}   >
+            <h3 className="presentation-TITLE">Présentation</h3>
+            <div className="presentation">
+                <div className="presentation-portrait">
+                    <img src={avatarFemme} alt="Portrait de Samanta GOULONG" />
+                </div>
+                <div className={`presentation-content `}>
+                    {/* <h3 className="presentation-title">Présentation</h3> */}
+                    <p className="presentation-text">
+                        "Passionnée par le développement web et la création d'interfaces à la fois
+                        créatives et fonctionnelles, je mets ma formation solide en intégration web
+                        et mon expérience pratique au service de la conception d'expériences en
+                        ligne attrayantes et conviviales." "Passionnée par le développement web et
+                        la création d'interfaces à la fois créatives et fonctionnelles, je mets ma
+                        formation solide en intégration web et mon expérience pratique au service de
+                        la conception d'expériences en ligne attrayantes et conviviales."
+                    </p>
+                </div>
             </div>
         </div>
     )

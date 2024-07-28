@@ -12,15 +12,15 @@ function Skills() {
                     {/* Titre de la section */}
                     <h3 className="skills-title">Mes compétences</h3>
                     {/* Conteneur des compétences */}
-                    <div className="skills-competences-container">
+                    <div className="skills">
                         {/* Mapping des données JSON pour afficher les compétences */}
                         {dataApp.map((item) => (
-                            <div className="skills-competences-app-container" key={item.id}>
+                            <div className="skills-cards" key={item.id}>
                                 {/* Image représentant l'application */}
                                 <img
                                     src={item.image}
                                     alt={item.name}
-                                    className="skills-competences-app-img"
+                                    className="skills-img"
                                 />
                                 {/* Nom de l'application */}
                                 <h4>{item.name}</h4>
@@ -30,7 +30,7 @@ function Skills() {
                     {/* Conteneur du CV et du bouton de téléchargement */}
                     <div className="skills-cv-container">
                         {/* Image du CV */}
-                        <img src={cv} alt="mon cv" className="skills-competences-cv-img" />
+                        <img src={cv} alt="mon cv" className="skills-cv-img" />
                         {/* Bouton de téléchargement du CV */}
                         {/* <button className="skills-cv-button">
                             <i className="fa-solid fa-download skills-cv-icone"></i> */}
@@ -39,8 +39,8 @@ function Skills() {
                         {/* Télécharger mon CV */}
                         {/* </a>
                         </button> */}
-                        <a href="/" class="skills-cv-button">
-                            <i class="fa-solid fa-download skills-cv-icone"></i>
+                        <a href="/" class="skills-link-cv">
+                            <i class="fa-solid fa-download icone-telecharger"></i>
                             Télécharger mon CV
                         </a>
                     </div>

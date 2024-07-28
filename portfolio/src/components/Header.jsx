@@ -196,31 +196,30 @@ function Header() {
                 {/* Section de navigation */}
                 <nav className="nav-content">
                     {/* Lien vers la section Accueil */}
-                    <a href="#accueil" className="link-nav">
+                    <a href="#accueil">
                         Accueil
                     </a>
                     {/* Lien vers la section Présentation */}
-                    <a href="#presentation" className="link-nav">
+                    <a href="#presentation">
                         Presentation
                     </a>
                     {/* Lien vers la section Réalisations */}
-                    <a href="#presentation" className="link-nav">
+                    <a href="#realisations">
                         Réalisations
                     </a>
                     {/* Lien vers la section Compétences */}
-                    <a href="#competences" className="link-nav">
+                    <a href="#competences">
                         Competences
                     </a>
                     {/* Lien vers la section Contact */}
-                    <a href="#contact" className="link-nav">
+                    <a href="#contact">
                         Contact
                     </a>
                     {/* Div pour l'animation de survol */}
-                    <div className="animation start-home"></div>
+                    <div className="animation"></div>
                 </nav>
                 <nav className="button-hamburger">
-            
-                        <i class="fa-solid fa-bars"></i> 
+                    <i class="fa-solid fa-bars"></i>
                 </nav>
             </div>
         </>

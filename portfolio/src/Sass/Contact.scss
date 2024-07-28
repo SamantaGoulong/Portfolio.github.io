@@ -41,16 +41,16 @@
         @media screen and (max-width: 320px) {
             width: 100%;
             padding: 0 15px;
-            margin:0 20px;
+            margin: 0 20px;
         }
- 
+
         .contact-content-text {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             // position: relative;
-            
+
             h3 {
                 font-size: 25px;
                 padding: 40px 0px;
@@ -58,7 +58,7 @@
             h4 {
                 font-size: 15px;
                 padding-bottom: 30px;
-           //     background-color: pink;
+                //     background-color: pink;
             }
         }
 
@@ -67,7 +67,7 @@
             color: white;
             display: flex;
             justify-content: center;
-            
+
             label {
                 display: flex;
                 font-size: 1em;
@@ -104,12 +104,19 @@
                     align-items: center;
                     cursor: pointer;
                     border-radius: 25px;
+
                     // @media screen and (max-width: 768px) {
 
                     // }
                     @media screen and (max-width: 320px) {
                         width: 100px;
                     }
+                }
+                .send-button:hover {
+                    //background-color: #27b8bd;
+                  
+                    background: linear-gradient(90deg, rgba(0,185,255,1) 0%, rgba(0,6,66,1) 100%);
+                    transform: scale(1.1);
                 }
             }
         }
