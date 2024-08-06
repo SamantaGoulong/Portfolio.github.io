@@ -1,3 +1,6 @@
+@import'./_mixin';
+
+
 .home-container {
     width: 100%;
     height: 100vh;
@@ -45,6 +48,7 @@
 
             h2 {
                 font-size: 50px;
+                text-shadow: 1px 1px 2px white;
                 margin-bottom: 10px;
                 font-family: 'Signika Negative', sans-serif;
                 font-weight: 300;
@@ -63,6 +67,7 @@
 
             h3 {
                 font-size: 25px;
+                text-shadow: 1px 1px 2px white;
                 /* Décalage pour le h2 */
 
                 transform: translateX(100%);
@@ -91,56 +96,34 @@
         .home-buttons-container {
             display: flex;
             gap: 20px;
+            
             @media screen and (max-width: 320px) {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
             }
-            button {
-                width: 190px;
-                height: 40px;
-                font-size: 15px;
-                border-radius: 15px;
-                border-color: white;
-                background-color: black;
-                color: white;
-                cursor: pointer;
-                transition: 0.9s;
-                position: relative;
-                overflow: hidden;
-                // &:hover {
-                //     background-color: lightgrey;
-                //     color: black;
-                //     border-color: black;
-                //     transform: scale(1.1);
-                // }
-                &:hover {
-                    color: black;
-                      z-index: -1;
-                }
-                &::before{
-                    content: "";
-                    position: absolute;
-                    left: 0;
-                    bottom: 0;
-                    border-radius:50% 50% 0 0 ;
-                    width: 100%;
-                    height: 0%;
-                    background:  linear-gradient(
-                    45deg,
-                  
-                    #0d1523,
-                    #0ec9d1,
-                    #099095,
-                    #036266,
-                    #02282a
-                );
-               z-index: -1;
-                transition: 0.8s;
-                }
-                &:hover::before{
-                    height: 180%;
-                }
+            .button-link {
+                // @include buttons;
+                @include button-mixin ;
+                
+                // width: 190px;
+                // height: 40px;
+                // font-size: 15px;
+                // border-radius: 15px;
+                // border-color: white;
+                // background-color: black;
+                // color: white;
+                // cursor: pointer;
+                // transition: 0.9s;
+                // position: relative;
+                // overflow: hidden;
+                // // &:hover {
+                // //     background-color: lightgrey;
+                // //     color: black;
+                // //     border-color: black;
+                // //     transform: scale(1.1);
+                // // }
+               
             }
         }
     }

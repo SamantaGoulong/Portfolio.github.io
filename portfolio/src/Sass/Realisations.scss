@@ -3,7 +3,7 @@
     display: flex;
     background-color: rgb(37, 34, 46);
     justify-content: center;
-    //align-items: center;
+    padding-bottom: 60px;
     @media screen and (max-width: 768px) {
     }
     @media screen and (max-width: 320px) {
@@ -11,60 +11,35 @@
         flex-direction: column;
     }
     .realisations-content {
-        //background-color: rebeccapurple;
         width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 70px;
-        margin-bottom: 70px;
 
-        //text-align: center;
-
-        //     font-size: large;
-        //     width: 65%;
-        //     height: auto;
-        //     display: flex;
-        //     flex-direction: column;
-        //     justify-content: center;
-        //     align-items: center;
-        //     z-index: 1;
-        //     position: relative;
-        margin-top: 40px;
-
-        .realisations-content-text {
-            text-align: center;
-
-            .realisations-title {
-                // margin-top: 50px;
-                padding-bottom: 50px;
-                font-size: 60px;
-                //         margin-bottom: 40px;
-                color: rgb(26, 192, 192);
-
-                //         z-index: 5;
-                //        position: absolute;
-                //         top: 0; /* Alignement en haut par rapport au parent */
-                //         left: 10;
-                //         margin-top: 205px;
-                @media screen and (max-width: 320px) {
-                    padding-bottom: 20px;
-                    font-size: 30px;
-                }
+        .realisations-title {
+            font-size: 60px;
+            color: rgb(26, 192, 192);
+            margin-top: 60px;
+            margin-bottom: 60px;
+            text-shadow: 1px 1px 2px white;
+            @media screen and (max-width: 320px) {
+                padding-bottom: 20px;
+                font-size: 30px;
             }
         }
+
         .realisations-card-container {
+            //background-color: red ;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             // @media screen and (max-width: 768px) {
-              
+
             // }
             @media screen and (max-width: 320px) {
                 width: 100%;
                 display: flex;
-                
                 justify-content: center;
             }
         }

@@ -6,10 +6,11 @@ function Contact() {
         <>
             {/* Conteneur principal du formulaire de contact */}
             <div id="contact" className="contact-container">
+                <h3 className="contact-title">Contact</h3>
                 <div className="contact-content">
                     {/* Section texte du formulaire de contact */}
                     <div className="contact-content-text">
-                        <h3>Contact</h3>
+                        
                         <h4>Envie de démarrer un projet ? N'hésitez pas à me contacter !</h4>
                     </div>
 
@@ -30,7 +31,7 @@ function Contact() {
 
                             {/* Bouton d'envoi du formulaire */}
                             <div className="send">
-                                <input type="submit" value="Envoyer" className="send-button" required="required" />
+                                <button type="submit" value="Envoyer" className="send-button" > Envoyer</button>
                             </div>
                         </form>
                     </div>

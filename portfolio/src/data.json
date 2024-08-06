@@ -1,39 +1,43 @@
 [
-   {
-    "id": "1",
-    "title": "Riding Cities",
-   "picture": "contact2.jpg",
-    "linkGithub": "https://github.com/SamantaGoulong/Ohmyfood.github.io/deployments/github-pages",
-    "tags": [
-        {
-            "HTML": "fa-brands fa-html5"
-        },
-        {
-            "CSS": "fa-brands fa-css3-alt"
-        },
-        {
-            "SCSS": "fa-brands fa-sass"
-        },
-        {
-            "Javascript": "fa-brands fa-js"
-        },
-        {
-            "REACT": "fa-brands fa-react"
-        },
-        {
-            "Figma": "fa-brands fa-figma"
-        }
-    ]
-}
-
-    ,
+    {
+        "id": "1",
+        "title": "Oh my Food",
+        "picture": "Oh-my-food.webp",
+        "linkGithub": "https://github.com/SamantaGoulong/Ohmyfood.github.io/deployments/github-pages",
+        "tags": [
+            {
+                "Github": "fa-brands fa-github"
+            },
+            {
+                "HTML": "fa-brands fa-html5"
+            },
+            {
+                "CSS": "fa-brands fa-css3-alt"
+            },
+            {
+                "SCSS": "fa-brands fa-sass"
+            },
+            {
+                "Javascript": "fa-brands fa-js"
+            },
+            {
+                "REACT": "fa-brands fa-react"
+            },
+            {
+                "Figma": "fa-brands fa-figma"
+            }
+        ]
+    },
 
     {
         "id": "2",
-        "title": "KASA",
-        "picture": "contact3.jpg",
+        "title": "Print it",
+        "picture": "Print-it.webp",
         "linkGithub": "https://github.com/SamantaGoulong/kasa.github.io",
         "tags": [
+            {
+                "Github": "fa-brands fa-github"
+            },
             {
                 "REACT": "fa-brands fa-react"
             },
@@ -44,10 +48,13 @@
     },
     {
         "id": "3",
-        "title": "nina carducci",
-        "picture": "contact4.jpg",
+        "title": "Sophie Bluel",
+        "picture": "Sophie-Bluel.webp",
         "linkGithub": "https://github.com/SamantaGoulong",
         "tags": [
+            {
+                "Github": "fa-brands fa-github"
+            },
             {
                 "REACT": "fa-brands fa-react"
             },
@@ -61,10 +68,13 @@
     },
     {
         "id": "4",
-        "title": "KAS",
-        "picture": "contact6.jpg",
+        "title": "KASA",
+        "picture": "Kasa.webp",
         "linkGithub": "https://github.com",
         "tags": [
+            {
+                "Github": "fa-brands fa-github"
+            },
             {
                 "REACT": "fa-brands fa-react"
             },
@@ -73,14 +83,68 @@
             }
         ]
     },
-      {
+    {
         "id": "5",
-        "title": "KA",
-        "picture": "contact6.webp",
+        "title": "Nina Carducci",
+        "picture": "Nina-Carducci.webp",
         "linkGithub": "https://github.com",
         "tags": [
             {
+                "Github": "fa-brands fa-github"
+            },
+            {
                 "REACT": "fa-brands fa-react"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Projet 10",
+        "picture": "contact2.webp",
+        "linkGithub": "https://github.com",
+        "tags": [
+            {
+                "Github": "fa-brands fa-github"
+            },
+            {
+                "REACT": "fa-brands fa-react"
+            },
+            {
+                "Figma": "fa-brands fa-figma"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "title": "Projet 11",
+        "picture": "contact3.webp",
+        "linkGithub": "https://github.com",
+        "tags": [
+            {
+                "Github": "fa-brands fa-github"
+            },
+            {
+                "REACT": "fa-brands fa-react"
+            },
+            {
+                "Figma": "fa-brands fa-figma"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Mon portfolio",
+        "picture": "Portfolio.webp",
+        "linkGithub": "https://github.com",
+        "tags": [
+            {
+                "Github": "fa-brands fa-github"
+            },
+            {
+                "REACT": "fa-brands fa-react"
+            },
+            {
+                "Figma": "fa-brands fa-figma"
             }
         ]
     }

@@ -9,9 +9,7 @@ function Realisations() {
             <div id="realisations" className="realisations-container">
                 <div className="realisations-content">
                     {/* Section de texte de la section Réalisations */}
-                    <div className="realisations-content-text">
                         <h3 className="realisations-title">Réalisations</h3>
-                    </div>
                     {/* Conteneur des cartes de réalisations */}
                     <div className="realisations-card-container">
                         {/* Composant des cartes de réalisations */}

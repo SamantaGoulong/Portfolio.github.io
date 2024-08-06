@@ -1,19 +1,19 @@
-import React, { useState, useEffect } from 'react'
-import '../Sass/Home.scss' // Importation des styles SCSS spécifiques au composant Home
-import Presentation from '../components/Presentation'
-import Realisations from '../components/Realisations'
-import Skills from '../components/Skills'
-import Contact from '../components/Contact'
+import React, { useState, useEffect } from 'react';
+import '../Sass/Home.scss'; // Importation des styles SCSS spécifiques au composant Home
+import Presentation from '../components/Presentation';
+import Realisations from '../components/Realisations';
+import Skills from '../components/Skills';
+import Contact from '../components/Contact';
 // import { Link } from 'react-router-dom'; // Importation de Link depuis react-router-dom si nécessaire
 
 function Home() {
     // Déclaration d'un état local pour gérer l'animation
-    const [isAnimated, setIsAnimated] = useState(false)
+    const [isAnimated, setIsAnimated] = useState(false);
 
     useEffect(() => {
         // Déclencher l'animation lorsque le composant est monté
-        setIsAnimated(true)
-    }, []) // Ce tableau vide assure que useEffect ne s'exécute qu'une seule fois après le montage initial
+        setIsAnimated(true);
+    }, []); // Ce tableau vide assure que useEffect ne s'exécute qu'une seule fois après le montage initial
 
     return (
         <>
@@ -28,12 +28,12 @@ function Home() {
                     {/* Section des boutons de la page d'accueil */}
                     <div className="home-buttons-container">
                         {/* Lien vers la section Réalisations */}
-                        <a href="#realisations">
-                            <button>Aller au Portfolio</button>
+                        <a href="#realisations" class="button-link">
+                            Aller au Portfolio
                         </a>
                         {/* Lien vers la section Compétences */}
-                        <a href="#competences">
-                            <button>Consulter mon CV</button>
+                        <a href="#competences" class="button-link">
+                            Consulter mon CV
                         </a>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ function Home() {
                 <Contact />
             </section>
         </>
-    )
+    );
 }
 
-export default Home
+export default Home;

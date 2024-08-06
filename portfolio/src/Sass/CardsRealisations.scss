@@ -1,3 +1,5 @@
+@import './_mixin';
+
 .realisations-card-content {
     width: 30%;
     display: flex;
@@ -21,49 +23,74 @@
         border: solid 2px rgb(26, 192, 192);
         border-radius: 20px;
         margin-bottom: 5px;
+        position: relative;
+        overflow: hidden;
 
-        .img-card {
-            // width: 470px;
-            width: 100%;
-            height: 250px;
-            display: flex;
-            justify-content: center;
+        .card-links-button-text {
+            .img-card {
+                width: 570px;
+                //width: 100%;
+                height: 250px;
+                display: flex;
+                justify-content: center;
+                transition: filter 0.3s ease;
+            }
+            &:hover {
+                filter: blur(2px);
+            }
+            // h5 {
+            //     color: rgb(26, 192, 192);
+            //     height: 10%;
+            //     margin-top: 20px;
+            //     background-color: beige;
+            // }
         }
-        // h5 {
-        //     color: rgb(26, 192, 192);
-        //     height: 10%;
-        //     margin-top: 20px;
-        //     background-color: beige;
-        // }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+
+            .title-project {
+               color:  rgb(26, 192, 192);
+                text-shadow: 1px 1px 2px white;
+                font-size: 3.3rem;
+                font-weight: 500;
+                text-align: center;
+            }
+        }
+        &:hover .overlay {
+            opacity: 1;
+        }
     }
 
     .card-links {
         display: flex;
-        justify-content: space-between;
+        //justify-content: space-between;
+        justify-content: center;
         margin: 0px 10px;
-
-        .card-links-button {
-            border-radius: 30px;
-            border: none;
-            padding: 10px 20px;
-            .card-links-button-icone {
-                font-size: 20px;
-                padding: 0px 2px;
-            }
-            .card-links-button-text {
-                text-decoration: none;
-            }
-        }
 
         .card-links-tags {
             background-color: #f0f0f0;
-            border-radius: 30px;
+            border-radius: 15px;
             border: none;
             padding: 10px 20px;
+            margin-top: 10px;
             .card-links-tags-icone {
                 font-size: 20px;
                 padding: 0px 2px;
             }
         }
     }
+}
+.load-more-button {
+    @include button-mixin;
+    margin-top: 60px;
 }

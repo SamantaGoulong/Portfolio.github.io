@@ -40,7 +40,7 @@ function Presentation() {
         <div
             id="presentation"
             className={`presentation-container `}   >
-            <h3 className="presentation-TITLE">Présentation</h3>
+            <h3 className="presentation-title">Présentation</h3>
             <div className="presentation">
                 <div className="presentation-portrait">
                     <img src={avatarFemme} alt="Portrait de Samanta GOULONG" />
@@ -51,10 +51,11 @@ function Presentation() {
                         "Passionnée par le développement web et la création d'interfaces à la fois
                         créatives et fonctionnelles, je mets ma formation solide en intégration web
                         et mon expérience pratique au service de la conception d'expériences en
-                        ligne attrayantes et conviviales." "Passionnée par le développement web et
+                        ligne attrayantes et conviviales." <br/><br/>"Passionnée par le développement web et
                         la création d'interfaces à la fois créatives et fonctionnelles, je mets ma
                         formation solide en intégration web et mon expérience pratique au service de
-                        la conception d'expériences en ligne attrayantes et conviviales."
+                        la conception d'expériences en ligne attrayantes et conviviales."<br/><br/>"Passionnée par le développement web et
+                        la création d'interfaces à la fois créatives et fonctionnelles
                     </p>
                 </div>
             </div>
