@@ -1,3 +1,130 @@
+// @import './_mixin';
+// @import './_animations';
+
+// .skills-container {
+//     //height: 100vh;
+//     height: auto;
+//     //padding: 70px;
+//     //background-color: hwb(176 91% 4% / 0.753);
+//     background-color: rgb(28, 26, 36);
+//     display: flex;
+//     justify-content: center;
+//     padding-bottom: 60px;
+//     //  @media screen and (max-width: 768px) {
+
+//     // }
+//     @media screen and (max-width: 320px) {
+//         padding: 20px 0px 40px 0px;
+//         display: flex;
+//         flex-wrap: wrap;
+//         flex-direction: column;
+//     }
+//     .skills-content {
+//         width: 80%;
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: space-around;
+//         justify-content: space-between;
+//         //  @media screen and (max-width: 768px) {
+
+//         // }
+//         @media screen and (max-width: 320px) {
+//             width: 100%;
+//             display: flex;
+//             flex-wrap: wrap;
+//         }
+//         .skills-title {
+//             width: 100%;
+//             font-size: 50px;
+//             text-align: center;
+//             color: rgb(26, 192, 192);
+//             margin-top: 60px;
+//             margin-bottom: 80px;
+//             text-shadow: 1px 1px 2px white;
+//             //  @media screen and (max-width: 768px) {
+//             // }
+//             @media screen and (max-width: 320px) {
+//                 margin-bottom: 20px;
+//                 font-size: 30px;
+//             }
+//         }
+//         .skills {
+//             width: 50%;
+//             display: flex;
+//             flex-wrap: wrap;
+//             align-items: center;
+//             justify-content: space-around;
+//             //  @media screen and (max-width: 768px) {
+
+//             // }
+//             @media screen and (max-width: 320px) {
+//                 width: 100%;
+//                 display: flex;
+//                 flex-wrap: wrap;
+//             }
+//             .skills-cards {
+//                 width: 30%;
+//                 display: flex;
+//                 flex-direction: column;
+//                 color: white;
+//                 align-items: center;
+//                 //  @media screen and (max-width: 768px) {
+
+//                 // }
+//                 @media screen and (max-width: 320px) {
+//                     width: 50%;
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                 }
+//                 .skills-img {
+//                     height: 120px;
+//                     margin: 10px 5px;
+//                     border-radius: 20px;
+//                     //  @media screen and (max-width: 768px) {
+
+//                     // }
+//                     @media screen and (max-width: 320px) {
+//                         height: 50px;
+//                     }
+//                 }
+//             }
+//         }
+//         .skills-cv-container {
+//             width: 50%;
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//             justify-content: center;
+//             //  @media screen and (max-width: 768px) {
+
+//             // }
+//             @media screen and (max-width: 320px) {
+//                 display: flex;
+//                 justify-content: center;
+//                 width: 100%;
+//             }
+
+//             .skills-cv-img {
+//                 margin-bottom: 50px;
+//                 //  @media screen and (max-width: 768px) {
+
+//                 // }
+//                 @media screen and (max-width: 320px) {
+//                     width: 300px;
+//                     margin: 50px 0px 20px 0px;
+//                 }
+//             }
+//             .skills-link-cv {
+//                 @include button-mixin;
+//                 animation-name: glowing;
+//             }
+            
+//             .icone-telecharger {
+//                 margin-right: 8px; /* Ajoute un espace entre l'icône et le texte */
+//             }
+//         }
+//     }
+// }
 @import './_mixin';
 @import './_animations';
 
@@ -40,7 +167,7 @@
             color: rgb(26, 192, 192);
             margin-top: 60px;
             margin-bottom: 80px;
-            text-shadow: 1px 1px 2px white;
+            text-shadow: 1px 2px 2px rgb(112, 110, 110);
             //  @media screen and (max-width: 768px) {
             // }
             @media screen and (max-width: 320px) {
@@ -114,129 +241,11 @@
                     margin: 50px 0px 20px 0px;
                 }
             }
-            // .skills-cv-button {
-            //     width: 200px;
-            //     height: 35px;
-            //     display: flex;
-            //     flex-direction: column;
-            //     justify-content: center;
-            //     align-items: center;
-            //     border: none;
-            //     border-radius: 30px;
-            //     padding: 25px;
-            //     background-color: aqua;
-            //     box-shadow: 0px 0px 1px 3px rgba(118, 198, 212, 0.199);
-
-            //     .skills-cv-link {
-            //         text-decoration: none;
-            //     }
-            // }
             .skills-link-cv {
                 @include button-mixin;
                 animation-name: glowing;
             }
-            //     width: 190px;
-            //     height: 40px;
-            //     display: inline-flex;
-            //     align-items: center;
-            //     justify-content: center;
-            //     text-align: center;
-            //     font-size: 16px;
-            //     text-align: center;
-            //     text-decoration: none;
-            //     outline: none;
-            //     color: white;
-            //     background-color: rgb(44, 44, 44);
-
-            //     border: none;
-            //     //border-radius: 30px;
-            //     border-radius: 10px;
-            //     position: relative;
-            //     z-index: 0;
-            //     // box-shadow: 0px 0px 1px 3px rgba(118, 198, 212, 0.199);
-            //     // transition: background-color 0.3s ease, box-shadow 0.3s ease;
-
-            //     //  @media screen and (max-width: 768px) {
-
-            //     // }
-            //     @media screen and (max-width: 320px) {
-            //         display: none;
-            //     }
-            // }
-            // .skills-link-cv:before {
-            //     content: '';
-            //     background: linear-gradient(
-            //         45deg,
-            //         // #ff0000,
-            //         // #ff7300,
-            //         // #fffb00,
-            //         // #48ff00,
-            //         // #00ffd5,
-            //         // #002bff,
-            //         // #7a00ff,
-            //         // #ff00c8,
-            //         // #ff0000
-            //         #0d1523,
-            //         #0ec9d1,
-            //         #099095,
-            //         #036266,
-            //         #02282a
-            //     );
-            //     position: absolute;
-            //     top: -2px;
-            //     left: -2px;
-            //     background-size: 400%;
-            //     z-index: -1;
-            //     filter: blur(5px);
-            //     width: calc(100% + 4px);
-            //     height: calc(100% + 4px);
-            //     animation: glowing 20s linear infinite;
-            //     opacity: 0;
-            //     transition: opacity 0.3s ease-in-out;
-            //     border-radius: 10px;
-            // }
-
-            // // .skills-link-cv:hover {
-
-            // //     // background: linear-gradient(90deg, rgba(0,185,255,1) 0%, rgba(0,6,66,1) 100%);
-            // //     // transform: scale(1.1);
-            // // }
-
-            // .skills-link-cv:active {
-            //     //color:rgb(44, 44, 44);
-            //     color: white;
-            //     // background: linear-gradient(90deg, rgba(0,185,255,1) 0%, rgba(0,6,66,1) 100%);
-            //     // box-shadow: 0px 0px 1px 3px rgba(118, 198, 212, 0.199);
-            //     // transform: translateY(4px);
-            // }
-            // .skills-link-cv:active:after {
-            //     background: transparent;
-            // }
-            // .skills-link-cv:hover:before {
-            //     opacity: 1;
-            // }
-            // .skills-link-cv:after {
-            //     z-index: -1;
-            //     content: '';
-            //     position: absolute;
-            //     width: 100%;
-            //     height: 100%;
-            //     background: rgb(44, 44, 44);
-            //     left: 0;
-            //     top: 0;
-            //     border-radius: 10px;
-            // }
-            // @keyframes glowing {
-            //     0% {
-            //         background-position: 0 0;
-            //     }
-            //     50% {
-            //         background-position: 400% 0;
-            //     }
-            //     100% {
-            //         background-position: 0 0;
-            //     }
-            // }
+            
             .icone-telecharger {
                 margin-right: 8px; /* Ajoute un espace entre l'icône et le texte */
             }

@@ -10,7 +10,7 @@ function Footer() {
                     {/* Section des icônes de réseaux sociaux */}
                     <div className="footer-content-icone">
                         {/* Lien vers l'email */}
-                        <a href="/" className="footer-icone">
+                        <a href="mailto:samanta1004@hotmail.com" className="footer-icone">
                             <i className="fa-regular fa-envelope"></i>
                         </a>
                         {/* Lien vers LinkedIn */}
@@ -18,7 +18,7 @@ function Footer() {
                             <i className="fa-brands fa-linkedin"></i>
                         </a>
                         {/* Lien vers GitHub */}
-                        <a href="/" className="footer-icone">
+                        <a href="https://github.com/SamantaGoulong" className="footer-icone">
                             <i className="fa-brands fa-github"></i>
                         </a>
                     </div>

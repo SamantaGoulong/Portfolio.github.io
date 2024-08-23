@@ -168,7 +168,7 @@ function CardsRealisations() {
             {data.slice(0, visibleProjects).map((item) => (
                 <div className="realisations-card-content" key={item.id}>
                     {/* Image du projet */}
-                    <div className="card-images">
+                    <div className="card-images  zoom-in-out-box">
                         <a
                             href={item.linkGithub}
                             className="card-links-button-text"
@@ -178,10 +178,11 @@ function CardsRealisations() {
                                 alt={item.title}
                                 className="img-card"
                             />
+
+                            <div className="overlay">
+                                <p className="title-project">{item.title}</p>
+                            </div>
                         </a>
-                        <div className="overlay">
-                            <p className="title-project">{item.title}</p>
-                        </div>
                     </div>
                     {/* Liens et icônes du projet */}
                     <div className="card-links">
