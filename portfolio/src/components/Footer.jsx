@@ -10,28 +10,38 @@ function Footer() {
                     {/* Section des icônes de réseaux sociaux */}
                     <div className="footer-content-icone">
                         {/* Lien vers l'email */}
-                        <a href="mailto:samanta1004@hotmail.com" className="footer-icone">
+                        <a
+                            href="mailto:goulongsamanta@gmail.com"
+                            className="footer-icone"
+                        >
                             <i className="fa-regular fa-envelope"></i>
                         </a>
                         {/* Lien vers LinkedIn */}
-                        <a href="/" className="footer-icone">
+                        <a
+                            href="https://linkedin.com/in/samanta-goulong-066200325"
+                            className="footer-icone"
+                        >
                             <i className="fa-brands fa-linkedin"></i>
                         </a>
                         {/* Lien vers GitHub */}
-                        <a href="https://github.com/SamantaGoulong" className="footer-icone">
+                        <a
+                            href="https://github.com/SamantaGoulong"
+                            className="footer-icone"
+                        >
                             <i className="fa-brands fa-github"></i>
                         </a>
                     </div>
                     {/* Section du texte de copyright */}
                     <div className="footer-content-text">
                         <p className="footer-text">
-                            Copyright © 2024. Tous droits réservés Samanta GOULONG
+                            Copyright © 2024. Tous droits réservés Samanta
+                            GOULONG
                         </p>
                     </div>
                 </div>
             </div>
         </>
-    )
+    );
 }
 
 export default Footer

@@ -118,7 +118,7 @@
 //                 @include button-mixin;
 //                 animation-name: glowing;
 //             }
-            
+
 //             .icone-telecharger {
 //                 margin-right: 8px; /* Ajoute un espace entre l'icône et le texte */
 //             }
@@ -175,46 +175,46 @@
                 font-size: 30px;
             }
         }
-        .skills {
+        .carrousel-container {
             width: 50%;
             display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-around;
-            //  @media screen and (max-width: 768px) {
+            //     flex-wrap: wrap;
+            //     align-items: center;
+            //     justify-content: space-around;
+            //     //  @media screen and (max-width: 768px) {
 
-            // }
-            @media screen and (max-width: 320px) {
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-            }
-            .skills-cards {
-                width: 30%;
-                display: flex;
-                flex-direction: column;
-                color: white;
-                align-items: center;
-                //  @media screen and (max-width: 768px) {
+            //     // }
+            //     @media screen and (max-width: 320px) {
+            //         width: 100%;
+            //         display: flex;
+            //         flex-wrap: wrap;
+            //     }
+            //     .skills-cards {
+            //         width: 30%;
+            //         display: flex;
+            //         flex-direction: column;
+            //         color: white;
+            //         align-items: center;
+            //         //  @media screen and (max-width: 768px) {
 
-                // }
-                @media screen and (max-width: 320px) {
-                    width: 50%;
-                    display: flex;
-                    flex-wrap: wrap;
-                }
-                .skills-img {
-                    height: 120px;
-                    margin: 10px 5px;
-                    border-radius: 20px;
-                    //  @media screen and (max-width: 768px) {
+            //         // }
+            //         @media screen and (max-width: 320px) {
+            //             width: 50%;
+            //             display: flex;
+            //             flex-wrap: wrap;
+            //         }
+            //         .skills-img {
+            //             height: 120px;
+            //             margin: 10px 5px;
+            //             border-radius: 20px;
+            //             //  @media screen and (max-width: 768px) {
 
-                    // }
-                    @media screen and (max-width: 320px) {
-                        height: 50px;
-                    }
-                }
-            }
+            //             // }
+            //             @media screen and (max-width: 320px) {
+            //                 height: 50px;
+            //             }
+            //         }
+            //     }
         }
         .skills-cv-container {
             width: 50%;
@@ -245,7 +245,7 @@
                 @include button-mixin;
                 animation-name: glowing;
             }
-            
+
             .icone-telecharger {
                 margin-right: 8px; /* Ajoute un espace entre l'icône et le texte */
             }

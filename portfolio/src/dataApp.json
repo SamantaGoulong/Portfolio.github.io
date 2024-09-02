@@ -23,15 +23,5 @@
         "image": "react.webp",
         "name": "React",
         "description": " React est une bibliothèque JavaScript utilisée pour la création d'interfaces utilisateur interactives et dynamiques, en permettant la construction de composants réutilisables qui gèrent leur propre état et qui peuvent être combinés pour former des applications web complexes."
-    },
-    {
-        "image": "figma.webp",
-        "name": "Figma",
-        "description": " Figma est une application de conception d'interface utilisateur (UI) basée sur le cloud, qui permet aux designers de créer, de collaborer et de prototyper des maquettes interactives pour les sites web, les applications mobiles et d'autres interfaces utilisateur, le tout dans un environnement de travail en temps réel et accessible en ligne."
-    },
-    {
-        "image": "wordpress.webp",
-        "name": "Wordpress",
-        "description": "WordPress est une plateforme de gestion de contenu (CMS) open source largement utilisée pour la création et la gestion de sites web, offrant une interface conviviale et flexible ainsi qu'une grande variété de thèmes et de plugins pour personnaliser et étendre les fonctionnalités du site sans avoir besoin de compétences de développement avancées. "
     }
 ]

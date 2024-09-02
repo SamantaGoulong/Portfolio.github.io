@@ -48,8 +48,9 @@
 // export default Skills
 import React from 'react';
 import '../Sass/Skills.scss'; // Importation des styles SCSS spécifiques au composant Skills
-import cv from '../assets/images/cv.png'; // Importation de l'image du CV
+import cv from '../assets/images/cv.jpg'; // Importation de l'image du CV
 import dataApp from '../dataApp.json'; // Importation des données JSON des compétences
+import Carrousel from './Carrousel';
 
 function Skills() {
     return (
@@ -60,8 +61,8 @@ function Skills() {
                     {/* Titre de la section */}
                     <h3 className="skills-title">Mes compétences</h3>
                     {/* Conteneur des compétences */}
-                    <div className="carousel container">
-                        <div className="carousel">
+                    <div className="carrousel-container">
+                        {/* <div className="carousel">
                             <figure>
                                 <img src="./html5.webp" alt="logo html5" />
                                 <img src="./css3.webp" alt="logo css3" />
@@ -72,7 +73,8 @@ function Skills() {
                                 <img src="./wordspress.webp" alt="logo wordpress" />
                                  <img src="./fontAwesome.webp" alt="logo fontAwesome" />
                             </figure>
-                        </div>
+                        </div> */}
+                        <Carrousel />
                     </div>
                     {/* Conteneur du CV et du bouton de téléchargement */}
                     <div className="skills-cv-container">

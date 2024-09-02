@@ -1,13 +1,107 @@
 [
     {
         "id": "1",
-        "title": "Oh my Food",
-        "picture": "Oh-my-food.webp",
-        "linkGithub": "https://github.com/SamantaGoulong/Ohmyfood.github.io/deployments/github-pages",
+        "title": "Riding Cities",
+        "picture": "Riding-Cities.webp",
+        "linkGithub":"https://samantagoulong.github.io/RidingCities.github.io/",
         "tags": [
             {
-                "Github": "fa-brands fa-github"
+                "HTML": "fa-brands fa-html5"
             },
+            {
+                "CSS": "fa-brands fa-css3-alt"
+            }, 
+            {
+                "Github": "fa-brands fa-github"
+            }
+           
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Booki",
+        "picture": "Booki.webp",
+        "linkGithub": "https://samantagoulong.github.io/booki.final.github.io/",
+        "tags": [
+            {
+                "HTML": "fa-brands fa-html5"
+            },
+            {
+                "CSS": "fa-brands fa-css3-alt"
+            }, 
+            {
+                "Github": "fa-brands fa-github"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Oh my Food",
+        "picture": "Oh-my-food.webp",
+        "linkGithub": "https://samantagoulong.github.io/Ohmyfood.github.io/",
+        "tags": [
+            
+            {
+                "HTML": "fa-brands fa-html5"
+            },
+            {
+                "CSS": "fa-brands fa-css3-alt"
+            },
+            {
+                "SCSS": "fa-brands fa-sass"
+            },
+            {
+                "Github": "fa-brands fa-github"
+            }
+        ]
+    },
+
+    {
+        "id": "4",
+        "title": "Print it",
+        "picture": "Print-it.webp",
+        "linkGithub": "https://samantagoulong.github.io/PrintIt.github.io/",
+        "tags": [
+            {
+                "HTML": "fa-brands fa-html5"
+            },
+            {
+                "CSS": "fa-brands fa-css3-alt"
+            },
+            {
+                "Javascript": "fa-brands fa-js"
+            },
+            {
+                "Github": "fa-brands fa-github"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Sophie Bluel",
+        "picture": "Sophie-Bluel.webp",
+        "linkGithub": "https://github.com/SamantaGoulong/projet6.github.io/deployments/github-pages",
+        "tags": [
+            {
+                "HTML": "fa-brands fa-html5"
+            },
+            {
+                "CSS": "fa-brands fa-css3-alt"
+            },
+            {
+                "Javascript": "fa-brands fa-js"
+            },
+            {
+                "Github": "fa-brands fa-github"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "title": "KASA",
+        "picture": "Kasa.webp",
+        "linkGithub": "https://github.com/SamantaGoulong/kasa.github.io",
+        "tags": [
             {
                 "HTML": "fa-brands fa-html5"
             },
@@ -21,130 +115,66 @@
                 "Javascript": "fa-brands fa-js"
             },
             {
-                "REACT": "fa-brands fa-react"
-            },
-            {
-                "Figma": "fa-brands fa-figma"
-            }
-        ]
-    },
-
-    {
-        "id": "2",
-        "title": "Print it",
-        "picture": "Print-it.webp",
-        "linkGithub": "https://github.com/SamantaGoulong/kasa.github.io",
-        "tags": [
-            {
                 "Github": "fa-brands fa-github"
-            },
-            {
-                "REACT": "fa-brands fa-react"
-            },
-            {
-                "Figma": "fa-brands fa-figma"
-            }
-        ]
-    },
-    {
-        "id": "3",
-        "title": "Sophie Bluel",
-        "picture": "Sophie-Bluel.webp",
-        "linkGithub": "https://github.com/SamantaGoulong",
-        "tags": [
-            {
-                "Github": "fa-brands fa-github"
-            },
-            {
-                "REACT": "fa-brands fa-react"
-            },
-            {
-                "Javascript": "fa-brands fa-js"
-            },
-            {
-                "Figma": "fa-brands fa-figma"
-            }
-        ]
-    },
-    {
-        "id": "4",
-        "title": "KASA",
-        "picture": "Kasa.webp",
-        "linkGithub": "https://github.com",
-        "tags": [
-            {
-                "Github": "fa-brands fa-github"
-            },
-            {
-                "REACT": "fa-brands fa-react"
-            },
-            {
-                "Figma": "fa-brands fa-figma"
-            }
-        ]
-    },
-    {
-        "id": "5",
-        "title": "Nina Carducci",
-        "picture": "Nina-Carducci.webp",
-        "linkGithub": "https://github.com",
-        "tags": [
-            {
-                "Github": "fa-brands fa-github"
-            },
-            {
-                "REACT": "fa-brands fa-react"
-            }
-        ]
-    },
-    {
-        "id": "6",
-        "title": "Projet 10",
-        "picture": "contact2.webp",
-        "linkGithub": "https://github.com",
-        "tags": [
-            {
-                "Github": "fa-brands fa-github"
-            },
-            {
-                "REACT": "fa-brands fa-react"
-            },
-            {
-                "Figma": "fa-brands fa-figma"
             }
         ]
     },
     {
         "id": "7",
-        "title": "Projet 11",
-        "picture": "contact3.webp",
-        "linkGithub": "https://github.com",
+        "title": "Nina Carducci",
+        "picture": "Nina-Carducci.webp",
+        "linkGithub": "",
         "tags": [
             {
+                "HTML": "fa-brands fa-html5"
+            },
+            {
                 "Github": "fa-brands fa-github"
-            },
-            {
-                "REACT": "fa-brands fa-react"
-            },
-            {
-                "Figma": "fa-brands fa-figma"
             }
         ]
     },
     {
         "id": "8",
-        "title": "Mon portfolio",
-        "picture": "Portfolio.webp",
-        "linkGithub": "https://github.com",
+        "title": "Projet 10",
+        "picture": "contact2.webp",
+        "linkGithub": "",
         "tags": [
             {
                 "Github": "fa-brands fa-github"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "title": "Projet 11",
+        "picture": "contact3.webp",
+        "linkGithub": "",
+        "tags": [
+            {
+                "Github": "fa-brands fa-github"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "title": "Mon portfolio",
+        "picture": "Portfolio.webp",
+        "linkGithub": "",
+        "tags": [
+            {
+                "HTML": "fa-brands fa-html5"
             },
             {
-                "REACT": "fa-brands fa-react"
+                "CSS": "fa-brands fa-css3-alt"
             },
             {
-                "Figma": "fa-brands fa-figma"
+                "SCSS": "fa-brands fa-sass"
+            },
+            {
+                "React": "fa-brands fa-react"
+            },
+            {
+                "Github": "fa-brands fa-github"
             }
         ]
     }
