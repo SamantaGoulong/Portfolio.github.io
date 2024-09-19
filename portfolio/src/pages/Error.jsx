@@ -7,8 +7,11 @@ function Error() {
         <>
             {/* Conteneur principal de la page d'erreur */}
             <div className="error-container">
+              
                 {/* Texte d'erreur */}
-                <p className="error-text">Oups! La page que vous demandez n'existe pas.</p>
+                <p className="error-text">
+                    Oups! La page que vous demandez n'existe pas.
+                </p>
                 {/* Conteneur des chiffres "404" */}
                 <section className="error-content">
                     <span>4</span>
@@ -25,7 +28,7 @@ function Error() {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
 export default Error

@@ -2,7 +2,7 @@ import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 
-import Header from './components/Header'
+// import Header from './components/Header'
 import Home from './components/Home'
 // import Presentation from './components/Presentation'
 // import Realisations from './components/Realisations'
@@ -16,7 +16,8 @@ function App() {
     return (
         <>
             <Router>
-                <Header />
+                {/* <Header /> */}
+                
                 <Routes>
                     <Route
                         path="/"  element={ <section id="accueil"> <Home /> </section>}/>

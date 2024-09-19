@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../Sass/Home.scss'; // Importation des styles SCSS spécifiques au composant Home
+import Header from '../components/Header'; // Importation du Header
 import Presentation from '../components/Presentation';
 import Realisations from '../components/Realisations';
 import Skills from '../components/Skills';
@@ -17,6 +18,7 @@ function Home() {
 
     return (
         <>
+            <Header />
             {/* Section principale de la page d'accueil */}
             <div id="accueil" className="home-container">
                 <div className={`home-content ${isAnimated ? 'animate' : ''}`}>

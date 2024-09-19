@@ -41,8 +41,9 @@ const Typewriter = () => {
     }, [index, textPos, aText]);
 
     return (
-        <div>
+        <div className="presentation-content ">
             <p
+                className="presentation-text"
                 dangerouslySetInnerHTML={{ __html: text + '_' }}
                 id="typedtext"
             ></p>

@@ -12,25 +12,15 @@ function Header() {
                 {/* Section de navigation */}
                 <nav className="nav-content">
                     {/* Lien vers la section Accueil */}
-                    <a href="#accueil">
-                        Accueil
-                    </a>
+                    <a href="#accueil">Accueil</a>
                     {/* Lien vers la section Présentation */}
-                    <a href="#presentation">
-                        Presentation
-                    </a>
+                    <a href="#presentation">Presentation</a>
                     {/* Lien vers la section Réalisations */}
-                    <a href="#realisations">
-                        Réalisations
-                    </a>
+                    <a href="#realisations">Réalisations</a>
                     {/* Lien vers la section Compétences */}
-                    <a href="#competences">
-                        Competences
-                    </a>
+                    <a href="#competences">Competences</a>
                     {/* Lien vers la section Contact */}
-                    <a href="#contact">
-                        Contact
-                    </a>
+                    <a href="#contact">Contact</a>
                     {/* Div pour l'animation de survol */}
                     <div className="animation"></div>
                 </nav>
@@ -39,8 +29,7 @@ function Header() {
                 </nav>
             </div>
         </>
-    )
+    );
 }
-
 export default Header
 
