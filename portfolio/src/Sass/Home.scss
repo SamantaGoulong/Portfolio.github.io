@@ -43,7 +43,7 @@
         }
         .home-text {
             margin-bottom: 40px;
-            color: rgb(10, 193, 206);
+           color: rgb(10, 193, 206);
             //color:rgb(26, 192, 192);
 
             h2 {
@@ -96,34 +96,20 @@
         .home-buttons-container {
             display: flex;
             gap: 20px;
-            
             @media screen and (max-width: 320px) {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
             }
             .button-link {
-                // @include buttons;
                 @include button-mixin ;
+                 //@media screen and (max-width: 768px) {
+
+                // }
+                @media screen and (max-width: 320px) {
+                   display: none;
                 
-                // width: 190px;
-                // height: 40px;
-                // font-size: 15px;
-                // border-radius: 15px;
-                // border-color: white;
-                // background-color: black;
-                // color: white;
-                // cursor: pointer;
-                // transition: 0.9s;
-                // position: relative;
-                // overflow: hidden;
-                // // &:hover {
-                // //     background-color: lightgrey;
-                // //     color: black;
-                // //     border-color: black;
-                // //     transform: scale(1.1);
-                // // }
-               
+                }
             }
         }
     }
