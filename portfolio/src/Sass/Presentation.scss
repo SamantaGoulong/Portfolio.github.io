@@ -5,14 +5,64 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-   background-image: linear-gradient(12deg, rgba(193, 193, 193,0.05) 0%, rgba(193, 193, 193,0.05) 2%,rgba(129, 129, 129,0.05) 2%, rgba(129, 129, 129,0.05) 27%,rgba(185, 185, 185,0.05) 27%, rgba(185, 185, 185,0.05) 66%,rgba(83, 83, 83,0.05) 66%, rgba(83, 83, 83,0.05) 100%),linear-gradient(321deg, rgba(240, 240, 240,0.05) 0%, rgba(240, 240, 240,0.05) 13%,rgba(231, 231, 231,0.05) 13%, rgba(231, 231, 231,0.05) 34%,rgba(139, 139, 139,0.05) 34%, rgba(139, 139, 139,0.05) 71%,rgba(112, 112, 112,0.05) 71%, rgba(112, 112, 112,0.05) 100%),linear-gradient(236deg, rgba(189, 189, 189,0.05) 0%, rgba(189, 189, 189,0.05) 47%,rgba(138, 138, 138,0.05) 47%, rgba(138, 138, 138,0.05) 58%,rgba(108, 108, 108,0.05) 58%, rgba(108, 108, 108,0.05) 85%,rgba(143, 143, 143,0.05) 85%, rgba(143, 143, 143,0.05) 100%),linear-gradient(96deg, rgba(53, 53, 53,0.05) 0%, rgba(53, 53, 53,0.05) 53%,rgba(44, 44, 44,0.05) 53%, rgba(44, 44, 44,0.05) 82%,rgba(77, 77, 77,0.05) 82%, rgba(77, 77, 77,0.05) 98%,rgba(8, 8, 8,0.05) 98%, rgba(8, 8, 8,0.05) 100%),linear-gradient(334deg, hsl(247,0%,2%),hsl(247,0%,2%));
+    background-image: linear-gradient(
+            12deg,
+            rgba(193, 193, 193, 0.05) 0%,
+            rgba(193, 193, 193, 0.05) 2%,
+            rgba(129, 129, 129, 0.05) 2%,
+            rgba(129, 129, 129, 0.05) 27%,
+            rgba(185, 185, 185, 0.05) 27%,
+            rgba(185, 185, 185, 0.05) 66%,
+            rgba(83, 83, 83, 0.05) 66%,
+            rgba(83, 83, 83, 0.05) 100%
+        ),
+        linear-gradient(
+            321deg,
+            rgba(240, 240, 240, 0.05) 0%,
+            rgba(240, 240, 240, 0.05) 13%,
+            rgba(231, 231, 231, 0.05) 13%,
+            rgba(231, 231, 231, 0.05) 34%,
+            rgba(139, 139, 139, 0.05) 34%,
+            rgba(139, 139, 139, 0.05) 71%,
+            rgba(112, 112, 112, 0.05) 71%,
+            rgba(112, 112, 112, 0.05) 100%
+        ),
+        linear-gradient(
+            236deg,
+            rgba(189, 189, 189, 0.05) 0%,
+            rgba(189, 189, 189, 0.05) 47%,
+            rgba(138, 138, 138, 0.05) 47%,
+            rgba(138, 138, 138, 0.05) 58%,
+            rgba(108, 108, 108, 0.05) 58%,
+            rgba(108, 108, 108, 0.05) 85%,
+            rgba(143, 143, 143, 0.05) 85%,
+            rgba(143, 143, 143, 0.05) 100%
+        ),
+        linear-gradient(
+            96deg,
+            rgba(53, 53, 53, 0.05) 0%,
+            rgba(53, 53, 53, 0.05) 53%,
+            rgba(44, 44, 44, 0.05) 53%,
+            rgba(44, 44, 44, 0.05) 82%,
+            rgba(77, 77, 77, 0.05) 82%,
+            rgba(77, 77, 77, 0.05) 98%,
+            rgba(8, 8, 8, 0.05) 98%,
+            rgba(8, 8, 8, 0.05) 100%
+        ),
+        linear-gradient(334deg, hsl(247, 0%, 2%), hsl(247, 0%, 2%));
     background-size: cover;
+     @media screen and (max-width: 768px) {
+        height: 650px;
+ }
 
     @media screen and (max-width: 320px) {
         display: flex;
-        flex-wrap: wrap;
-        padding: 0;
-        justify-content: center;
+        flex-wrap: none;
+        
+        //flex-direction: column;
+        // flex-wrap: wrap;
+        // padding: 0;
+        // justify-content: center;
     }
 
     .presentation-title {
@@ -21,6 +71,15 @@
         color: rgb(26, 192, 192);
         margin-top: 60px;
         text-shadow: 1px 2px 2px rgb(112, 110, 110);
+          @media screen and (max-width: 768px) {
+            font-size: 40px;
+       //  margin-bottom: 20px;
+        }
+
+        @media screen and (max-width: 320px) {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
     }
 
     .presentation {
@@ -33,7 +92,20 @@
         justify-content: center;
         align-items: center;
         gap: 120px;
+         @media screen and (max-width: 768px) {
+             width: 90%;
+            height: 400px;
+            padding: 15px 5px;
+           
+            
+         }
 
+        @media screen and (max-width: 320px) {
+      
+            width: 80%;
+            height: 400px;
+            padding: 0 5px;
+        }
         .presentation-portrait {
             width: 30%;
             display: flex;
@@ -42,6 +114,12 @@
             opacity: 0;
             transform: translateX(100%);
             animation: slideIn 1s forwards;
+            //  @media screen and (max-width: 768px) {
+            // }
+
+            @media screen and (max-width: 320px) {
+                display: none;
+            }
 
             img {
                 width: 100%;
@@ -54,13 +132,27 @@
 
         .presentation-content {
             width: 80%;
+            //  @media screen and (max-width: 768px) {
+                
+            //  }
+
+            @media screen and (max-width: 320px) {
+                width: 100%;
+            }
             .presentation-text {
                 font-size: 25px;
-               text-align: center;
+                text-align: center;
                 color: rgb(253, 255, 255);
                 opacity: 0;
                 animation: fadeIn 1.5s forwards;
                 animation-delay: 0.5s;
+                  @media screen and (max-width: 768px) {
+                    font-size: 20px;
+                 }
+
+                @media screen and (max-width: 320px) {
+                    font-size: 15px;
+                }
             }
         }
     }

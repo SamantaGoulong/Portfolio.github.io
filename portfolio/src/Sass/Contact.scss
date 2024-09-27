@@ -33,12 +33,13 @@
         margin-bottom: 80px;
         z-index: 2;
         text-shadow: 1px 2px 2px rgb(112, 110, 110);
-        //  @media screen and (max-width: 768px) {
-
-        // }
-        @media screen and (max-width: 320px) {
-            // margin-bottom: 20px;
+        @media screen and (max-width: 768px) {
+            margin-bottom: 50px;
             font-size: 40px;
+        }
+        @media screen and (max-width: 320px) {
+            margin-bottom: 40px;
+            font-size: 30px;
         }
     }
     .contact-content {
@@ -53,9 +54,9 @@
         border-radius: 25px;
         color: white;
         z-index: 1;
-        // @media screen and (max-width: 768px) {
-
-        // }
+         @media screen and (max-width: 768px) {
+ width: 90%;
+         }
         @media screen and (max-width: 320px) {
             width: 90%;
             // padding: 0 15px;
@@ -146,8 +147,7 @@
                 //@media screen and (max-width: 768px) {
 
                 // }
-                @media screen and (max-width: 320px) {
-                }
+               
             }
         }
     }

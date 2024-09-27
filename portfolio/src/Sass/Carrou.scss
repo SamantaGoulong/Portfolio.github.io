@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     position: relative;
     bottom: 60px;
+
     .img-carrousel {
         width: 25%;
         height: 200px;
@@ -15,30 +16,32 @@
         border-radius: 20px;
         padding: 5px;
         background-color: #ffffff;
-        @media screen and (max-width: 768px) {
-            height: 170px;
-        }
-        @media screen and (max-width: 320px) {
-            width: 25%;
-            height: 70px;
-        }
+         //     //  @media screen and (max-width: 768px) {
+
+            //     // }
+                @media screen and (max-width: 320px) {
+               width: 20%;
+               height: 50px;
+                }
     }
 
     .img-center-wrapper {
         display: flex;
         align-items: center;
+        
 
         position: relative;
         width: 40%;
         height: 270px;
         overflow: hidden; /* Cache l'effet de zoom si l'image dépasse le conteneur */
-        @media screen and (max-width: 768px) {
-            height: 250px;
-        }
-        @media screen and (max-width: 320px) {
-            width: 25%;
-            height: 90px;
-        }
+          //     //  @media screen and (max-width: 768px) {
+
+            //     // }
+                @media screen and (max-width: 320px) {
+               width: 20%;
+               height: 60px;
+                }
+    }
     }
 
     .img-center {
@@ -51,6 +54,7 @@
 
     .img-center-wrapper:hover .img-center {
         transform: scale(1.1); /* Zoom sur l'image */
+       
     }
 
     .overlay {
@@ -79,48 +83,22 @@
     .arrow {
         font-size: 40px;
         cursor: pointer;
-        //     //  @media screen and (max-width: 768px) {
-
-        //     // }
-        // @media screen and (max-width: 320px) {
-
-        // }
     }
     .arrow-left {
         position: absolute;
         left: 50px;
         top: 440px;
-        @media screen and (max-width: 768px) {
-            left: 30px;
-            top: 200px;
-        }
-        // @media screen and (max-width: 320px) {
-
-        // }
     }
     .arrow-right {
         position: absolute;
         right: 50px;
         top: 440px;
-        @media screen and (max-width: 768px) {
-            right: 30px;
-            top: 200px;
-        }
-        // @media screen and (max-width: 320px) {
-
-        // }
     }
 
     .dots {
         position: absolute;
         bottom: 150px;
         display: flex;
-        @media screen and (max-width: 768px) {
-            bottom: 0;
-        }
-        // @media screen and (max-width: 320px) {
-
-        // }
     }
     .dot {
         margin: 0 5px;
@@ -135,4 +113,4 @@
     .dot_selected {
         background-color: #fff;
     }
-}
+

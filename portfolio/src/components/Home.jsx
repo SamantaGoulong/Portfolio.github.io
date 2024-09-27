@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import '../Sass/Home.scss'; // Importation des styles SCSS spécifiques au composant Home
 import Header from '../components/Header'; // Importation du Header
-// import Presentation from '../components/Presentation';
-// import Realisations from '../components/Realisations';
-// import Skills from '../components/Skills';
+import Presentation from '../components/Presentation';
+import Realisations from '../components/Realisations';
+import Skills from '../components/Skills';
  import Contact from '../components/Contact';
 // import { Link } from 'react-router-dom'; // Importation de Link depuis react-router-dom si nécessaire
 
@@ -41,17 +41,17 @@ function Home() {
                 </div>
             </div>
             {/*  Section Présentation*/}
-            {/* <section id="presentation">
+            <section id="presentation">
                 <Presentation />
-            </section> */}
+            </section>
             {/* Section Réalisations */}
-            {/* <section id="realisations">
+            <section id="realisations">
                 <Realisations />
-            </section> */}
+            </section>
             {/* Section Compétences */}
-            {/* <section id="competences">
+            <section id="competences">
                 <Skills />
-            </section> */}
+            </section>
             {/* Section Contact */}
             <section id="contact">
                 <Contact />
