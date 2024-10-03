@@ -7,6 +7,9 @@
     flex-wrap: wrap;
     position: relative;
     bottom: 60px;
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        width: 100%;
+    }
     .img-carrousel {
         width: 25%;
         height: 200px;
@@ -15,38 +18,57 @@
         border-radius: 20px;
         padding: 5px;
         background-color: #ffffff;
-        @media screen and (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+align-items: center;
+        @media (min-width: 320px) and (max-width: 767px) {
+            width: 25%;
+            height: 90px;
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
             height: 170px;
         }
-        @media screen and (max-width: 320px) {
-            width: 25%;
-            height: 70px;
+        @media (min-width: 1024px) and (max-width: 1440px) {
+            width: 130px;
+            height: 130px;
+    
         }
+        // @media (min-width: 1024px) and (max-width: 1440px) {
+
+        // }
     }
 
     .img-center-wrapper {
         display: flex;
         align-items: center;
-
         position: relative;
         width: 40%;
         height: 270px;
         overflow: hidden; /* Cache l'effet de zoom si l'image dépasse le conteneur */
-        @media screen and (max-width: 768px) {
+        @media (min-width: 320px) and (max-width: 767px) {
+            width: 25%;
+            height: 110px;
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
             height: 250px;
         }
-        @media screen and (max-width: 320px) {
-            width: 25%;
-            height: 90px;
+        @media (min-width: 1024px) and (max-width: 1440px) {
+            width: 160px;
+            height: 160px;
+            display: flex;
+        justify-content: center;
+ 
+      
         }
     }
 
     .img-center {
-        width: 100%;
+        width: 300%;
         height: 100%;
         //object-fit: cover;
         transition: transform 0.3s ease, filter 0.3s ease;
         border: #fff;
+         
     }
 
     .img-center-wrapper:hover .img-center {
@@ -79,48 +101,62 @@
     .arrow {
         font-size: 40px;
         cursor: pointer;
-        //     //  @media screen and (max-width: 768px) {
-
-        //     // }
-        // @media screen and (max-width: 320px) {
-
-        // }
+        @media (min-width: 320px) and (max-width: 767px) {
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
+        }
+        @media (min-width: 1024px) and (max-width: 1440px) {
+        }
     }
     .arrow-left {
         position: absolute;
         left: 50px;
         top: 440px;
-        @media screen and (max-width: 768px) {
+        @media (min-width: 320px) and (max-width: 767px) {
+ left: 30px;
+            top: 230px;
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
             left: 30px;
             top: 200px;
         }
-        // @media screen and (max-width: 320px) {
-
-        // }
+        @media (min-width: 1024px) and (max-width: 1440px) {
+            left: 20px;
+            top: 230px;
+        }
     }
     .arrow-right {
         position: absolute;
         right: 50px;
         top: 440px;
-        @media screen and (max-width: 768px) {
+        @media (min-width: 320px) and (max-width: 767px) {
+            right: 30px;
+            top: 230px;
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
             right: 30px;
             top: 200px;
         }
-        // @media screen and (max-width: 320px) {
-
-        // }
+        @media (min-width: 1024px) and (max-width: 1440px) {
+            right: 20px;
+            top: 230px;
+        }
     }
 
     .dots {
         position: absolute;
         bottom: 150px;
         display: flex;
-        @media screen and (max-width: 768px) {
+
+        @media (min-width: 768px) and (max-width: 1023px) {
             bottom: 0;
         }
-        // @media screen and (max-width: 320px) {
+        // @media (min-width: 320px) and (max-width: 767px) {
 
         // }
+        @media (min-width: 1024px) and (max-width: 1440px) {
+            bottom: 10;
+        }
     }
     .dot {
         margin: 0 5px;

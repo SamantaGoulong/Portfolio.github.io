@@ -4,12 +4,12 @@
     background-color: rgb(37, 34, 46);
     justify-content: center;
     padding-bottom: 60px;
-    @media screen and (max-width: 768px) {
-    }
-    @media screen and (max-width: 320px) {
+
+    @media (min-width: 320px) and (max-width: 767px) {
         display: flex;
         flex-direction: column;
-      
+        // @media (min-width: 768px) and (max-width: 1023px){
+        // }
     }
     .realisations-content {
         width: 100%;
@@ -17,44 +17,49 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-//  @media screen and (max-width: 768px) {
+        //  @media screen and (max-width: 768px) {
 
-//     }
-    // @media screen and (max-width: 320px) {
-      
-      
-    // }
+        //     }
+        // @media screen and (max-width: 320px) {
+
+        // }
         .realisations-title {
             font-size: 60px;
             color: rgb(26, 192, 192);
             margin-top: 60px;
             margin-bottom: 60px;
             text-shadow: 1px 2px 2px rgb(112, 110, 110);
-             @media screen and (max-width: 768px) {
-                font-size: 40px;
-             }
-            @media screen and (max-width: 320px) {
+            @media (min-width: 320px) and (max-width: 767px) {
                 padding-bottom: 20px;
                 font-size: 30px;
-                 margin-bottom: 40px;
+                margin-bottom: 40px;
             }
+            @media (min-width: 768px) and (max-width: 1023px) {
+                font-size: 40px;
+            }
+            // @media (min-width: 1024px) and (max-width: 1440px) {
+            //     font-size: 40px;
+            // }
         }
 
         .realisations-card-container {
             //background-color: red ;
+            width: 100%;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            //  @media screen and (max-width: 768px) {
-
-                
-            //  }
-            @media screen and (max-width: 320px) {
+            @media (min-width: 320px) and (max-width: 767px) {
                 width: 100%;
                 display: flex;
                 justify-content: center;
             }
+            //   @media (min-width: 768px) and (max-width: 1023px) {
+
+            //  }
+            @media (min-width: 1024px) and (max-width: 1440px) {
+            //     font-size: 40px;
+         
+           }
         }
-        
     }
 }

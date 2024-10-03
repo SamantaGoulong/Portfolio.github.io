@@ -6,17 +6,26 @@
     flex-wrap: wrap;
     flex-direction: column;
     margin: 20px 25px;
-    @media screen and (max-width: 768px) {
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-    @media screen and (max-width: 320px) {
+    // background-color: violet;
+    @media (min-width: 320px) and (max-width: 767px) {
         width: 90%;
         display: flex;
         align-items: center;
     }
+    @media (min-width: 768px) and (max-width: 1023px) {
+        width: 90%;
+        
+        display: flex;
+        align-items: center;
+    }
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        //     font-size: 40px;
+        
+        width: 45%;
+    }
+
     .card-images {
+        width: 100%;
         height: 350px;
         display: flex;
         flex-direction: column;
@@ -24,16 +33,25 @@
         justify-content: center;
         border: solid 1px rgb(26, 192, 192);
         border-radius: 20px;
+        // margin-right: 10px;
+        // gap: 100px;
         margin-bottom: 5px;
         position: relative;
         overflow: hidden;
-        // @media screen and (max-width: 768px) {
-
-        // }
-        @media screen and (max-width: 320px) {
+        @media (min-width: 320px) and (max-width: 767px) {
             width: 270px;
             height: 200px;
         }
+        // @media (min-width: 768px) and (max-width: 1023px) {
+        //     width: 100%;
+        //     height: 340px;
+        // }
+        // @media (min-width: 1024px) and (max-width: 1440px) {
+        //     //     font-size: 40px;
+           
+        //     width: 100%;
+        //     height: 300px;
+        // }
         .card-links-button-text {
             .img-card {
                 width: 570px;
@@ -59,38 +77,47 @@
             height: 100%;
             background-color: rgba(0, 0, 0, 0.5);
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             opacity: 0;
             transition: opacity 0.3s ease;
-            @media screen and (max-width: 768px) {
-                opacity: 1;
-            }
-            @media screen and (max-width: 320px) {
-                opacity: 1;
-            }
 
+            @media (min-width: 320px) and (max-width: 767px) {
+                opacity: 1;
+            }
+            @media (min-width: 768px) and (max-width: 1023px) {
+                opacity: 1;
+            }
             .title-project {
                 color: rgb(26, 192, 192);
                 text-shadow: 1px 2px 2px rgb(112, 110, 110);
                 font-size: 3.3rem;
                 font-weight: 500;
                 text-align: center;
-                // @media screen and (max-width: 768px) {
-
-                // }
-                @media screen and (max-width: 320px) {
+                margin-bottom: 20px;
+                @media (min-width: 320px) and (max-width: 767px) {
                     font-size: 2.3rem;
                     font-weight: 500;
                 }
+                // @media (min-width: 768px) and (max-width: 1023px){
+
+                // }
+            }
+
+            .description-project{
+                color: white;
+                text-align: center;
+                margin: 0 10px;
+                font-size: 1.1rem;
             }
         }
         &:hover .overlay {
             opacity: 1;
-            @media screen and (max-width: 768px) {
+            @media (min-width: 320px) and (max-width: 767px) {
                 display: none;
             }
-            @media screen and (max-width: 320px) {
+            @media (min-width: 768px) and (max-width: 1023px) {
                 display: none;
             }
         }
@@ -117,7 +144,13 @@
         }
     }
 }
+.container-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
 .load-more-button {
     @include button-mixin;
     margin-top: 60px;
-}
+   
+}}

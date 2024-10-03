@@ -30,6 +30,7 @@ function CardsRealisations() {
 
                             <div className="overlay">
                                 <p className="title-project">{item.title}</p>
+                                <p className="description-project">{item.description}</p>
                             </div>
                         </a>
                     </div>
@@ -52,9 +53,14 @@ function CardsRealisations() {
             ))}
             {/* Bouton "Voir plus" affiché seulement s'il y a plus de projets à montrer */}
             {visibleProjects < data.length && (
-                <button onClick={loadMoreProjects} className="load-more-button">
-                    Voir plus
-                </button>
+                <div className="container-button">
+                    <button
+                        onClick={loadMoreProjects}
+                        className="load-more-button"
+                    >
+                        Voir plus
+                    </button>
+                </div>
             )}
         </>
     );
