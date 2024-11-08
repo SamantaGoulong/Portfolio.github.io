@@ -1,8 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import '../Sass/Presentation.scss';
-//import AnimationPresentation from '../components/AnimationPresentation';
 import PhotoCv from '../assets/images/PhotoCv.jpg';
-import Typewriter from '../components/AnimationPresentation'; // Assurez-vous que le composant Typewriter est importé
+import Typewriter from '../components/AnimationPresentation';
 
 function Presentation() {
     const [isVisible, setIsVisible] = useState(false);
@@ -42,7 +41,6 @@ function Presentation() {
                     <img src={PhotoCv} alt="Portrait de Samanta GOULONG" />
                 </div>
                 <div className="presentation-content">
-                    {/* Utilisez le composant Typewriter uniquement lorsqu'il est visible */}
                     {isVisible && <Typewriter />}
                 </div>
             </div>

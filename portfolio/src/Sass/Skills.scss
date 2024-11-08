@@ -5,26 +5,67 @@
     //height: 100vh;
     height: auto;
     //padding: 70px;
-    //background-color: hwb(176 91% 4% / 0.753);
-    background-color: rgb(28, 26, 36);
+
+    //  background-color: rgb(28, 26, 36);
+    background-image: linear-gradient(
+            12deg,
+            rgba(193, 193, 193, 0.05) 0%,
+            rgba(193, 193, 193, 0.05) 2%,
+            rgba(129, 129, 129, 0.05) 2%,
+            rgba(129, 129, 129, 0.05) 27%,
+            rgba(185, 185, 185, 0.05) 27%,
+            rgba(185, 185, 185, 0.05) 66%,
+            rgba(83, 83, 83, 0.05) 66%,
+            rgba(83, 83, 83, 0.05) 100%
+        ),
+        linear-gradient(
+            321deg,
+            rgba(240, 240, 240, 0.05) 0%,
+            rgba(240, 240, 240, 0.05) 13%,
+            rgba(231, 231, 231, 0.05) 13%,
+            rgba(231, 231, 231, 0.05) 34%,
+            rgba(139, 139, 139, 0.05) 34%,
+            rgba(139, 139, 139, 0.05) 71%,
+            rgba(112, 112, 112, 0.05) 71%,
+            rgba(112, 112, 112, 0.05) 100%
+        ),
+        linear-gradient(
+            236deg,
+            rgba(189, 189, 189, 0.05) 0%,
+            rgba(189, 189, 189, 0.05) 47%,
+            rgba(138, 138, 138, 0.05) 47%,
+            rgba(138, 138, 138, 0.05) 58%,
+            rgba(108, 108, 108, 0.05) 58%,
+            rgba(108, 108, 108, 0.05) 85%,
+            rgba(143, 143, 143, 0.05) 85%,
+            rgba(143, 143, 143, 0.05) 100%
+        ),
+        linear-gradient(
+            96deg,
+            rgba(53, 53, 53, 0.05) 0%,
+            rgba(53, 53, 53, 0.05) 53%,
+            rgba(44, 44, 44, 0.05) 53%,
+            rgba(44, 44, 44, 0.05) 82%,
+            rgba(77, 77, 77, 0.05) 82%,
+            rgba(77, 77, 77, 0.05) 98%,
+            rgba(8, 8, 8, 0.05) 98%,
+            rgba(8, 8, 8, 0.05) 100%
+        ),
+        linear-gradient(334deg, hsl(247, 0%, 2%), hsl(247, 0%, 2%));
+    background-size: cover;
     display: flex;
     justify-content: center;
     padding-bottom: 60px;
     @media (min-width: 320px) and (max-width: 767px) {
         padding: 20px 0px 40px 0px;
         display: flex;
-        // flex-wrap: wrap;
         flex-direction: column;
     }
-    //  @media (min-width: 768px) and (max-width: 1023px) {
-
-    // }
 
     .skills-content {
         width: 80%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
         justify-content: space-between;
         @media (min-width: 320px) and (max-width: 767px) {
             width: 100%;
@@ -67,7 +108,7 @@
                 height: 400px;
             }
             @media (min-width: 1024px) and (max-width: 1440px) {
-            width: 60%;
+                width: 60%;
             }
         }
         .skills-cv-container {
@@ -99,23 +140,20 @@
                     width: 90%;
                     margin-top: 50px;
                 }
-                 @media (min-width: 1024px) and (max-width: 1440px) {
-                width: 90%;
-            }
+                @media (min-width: 1024px) and (max-width: 1440px) {
+                    width: 90%;
+                }
             }
             .skills-link-cv {
                 @include button-mixin;
                 animation-name: glowing;
-                //@media (min-width: 768px) and (max-width: 1023px) {
-
-                // }
                 @media (min-width: 320px) and (max-width: 767px) {
                     position: absolute;
                 }
             }
 
             .icone-telecharger {
-                margin-right: 8px; /* Ajoute un espace entre l'icône et le texte */
+                margin-right: 8px;
             }
         }
     }

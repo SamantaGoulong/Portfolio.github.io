@@ -54,11 +54,7 @@
     @media (min-width: 320px) and (max-width: 767px) {
         display: flex;
         flex-wrap: none;
-height: 600px;
-        //flex-direction: column;
-        // flex-wrap: wrap;
-        // padding: 0;
-        // justify-content: center;
+        height: 600px;
     }
     @media (min-width: 768px) and (max-width: 1440px) {
         height: 800px;
@@ -72,11 +68,10 @@ height: 600px;
         text-shadow: 1px 2px 2px rgb(112, 110, 110);
         @media (min-width: 320px) and (max-width: 767px) {
             font-size: 30px;
-           // margin-bottom: 20px;
         }
         @media (min-width: 768px) and (max-width: 1023px) {
             font-size: 40px;
-              margin-bottom: 40px;
+            margin-bottom: 40px;
         }
     }
 
@@ -94,11 +89,9 @@ height: 600px;
             width: 80%;
             height: 350px;
             padding: 0 5px;
-            
         }
         @media (min-width: 768px) and (max-width: 1023px) {
             width: 90%;
-            //height: 300px;
             padding: 20px 5px;
             gap: 20px;
         }
@@ -111,10 +104,6 @@ height: 600px;
             opacity: 0;
             transform: translateX(100%);
             animation: slideIn 1s forwards;
-            // @media screen and (max-width: 768px) {
-
-            //  }
-
             @media (min-width: 320px) and (max-width: 767px) {
                 display: none;
             }
@@ -122,22 +111,15 @@ height: 600px;
             img {
                 width: 100%;
                 border-radius: 20px;
-                // border: solid 5px rgb(26, 192, 192);
-
                 box-shadow: 5px 6px 10px rgb(121, 119, 119);
             }
         }
 
         .presentation-content {
             width: 80%;
-            //      @media screen and (max-width: 768px) {
-
-            //  }
 
             @media (min-width: 320px) and (max-width: 767px) {
                 width: 100%;
-     
-
             }
             .presentation-text {
                 font-size: 25px;
@@ -148,7 +130,6 @@ height: 600px;
                 animation-delay: 0.5s;
                 @media (min-width: 320px) and (max-width: 767px) {
                     font-size: 15px;
-                  
                 }
                 @media (min-width: 768px) and (max-width: 1023px) {
                     font-size: 20px;

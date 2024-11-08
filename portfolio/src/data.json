@@ -1,23 +1,5 @@
 [
     {
-        "id": "1",
-        "title": "Riding Cities",
-        "description": "Mise à jour de la page web d’une association, en intégrant de nouveaux éléments conformément aux maquettes fournies.",
-        "picture": "Riding-Cities.webp",
-        "linkGithub": "https://samantagoulong.github.io/RidingCities.github.io/",
-        "tags": [
-            {
-                "HTML": "fa-brands fa-html5"
-            },
-            {
-                "CSS": "fa-brands fa-css3-alt"
-            },
-            {
-                "Github": "fa-brands fa-github"
-            }
-        ]
-    },
-    {
         "id": "2",
         "title": "Booki",
         "description": " Création la page d'accueil d'une agence de voyage en utilisant HTML et CSS. ",
@@ -44,9 +26,6 @@
         "tags": [
             {
                 "HTML": "fa-brands fa-html5"
-            },
-            {
-                "CSS": "fa-brands fa-css3-alt"
             },
             {
                 "SCSS": "fa-brands fa-sass"
@@ -110,9 +89,6 @@
                 "HTML": "fa-brands fa-html5"
             },
             {
-                "CSS": "fa-brands fa-css3-alt"
-            },
-            {
                 "SCSS": "fa-brands fa-sass"
             },
             {
@@ -128,10 +104,13 @@
         "title": "Nina Carducci",
         "description": "Optimisation du référencement d’un site, en améliorant sa performance et son accessibilité.",
         "picture": "Nina-Carducci.webp",
-        "linkGithub": "",
+        "linkGithub": "https://github.com/SamantaGoulong/NinaCarducci.github.io",
         "tags": [
             {
                 "HTML": "fa-brands fa-html5"
+            },
+            {
+                "CSS": "fa-brands fa-css3-alt"
             },
             {
                 "Github": "fa-brands fa-github"
@@ -143,8 +122,14 @@
         "title": "724events",
         "description": "Débuggue et finalisation du développement d'un site one-page.",
         "picture": "contact2.webp",
-        "linkGithub": "",
+        "linkGithub": "https://github.com/SamantaGoulong/724events.github.io",
         "tags": [
+             {
+                "React": "fa-brands fa-react"
+            }, 
+            {
+                "SCSS": "fa-brands fa-sass"
+            },
             {
                 "Github": "fa-brands fa-github"
             }
@@ -155,8 +140,15 @@
         "title": "Argent Bank",
         "description": "Développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive.",
         "picture": "contact3.webp",
-        "linkGithub": "",
+        "linkGithub": "https://github.com/SamantaGoulong/ArgentBank.github.io",
         "tags": [
+            
+            {
+                "React": "fa-brands fa-react"
+            },
+            {
+                "SCSS": "fa-brands fa-sass"
+            },
             {
                 "Github": "fa-brands fa-github"
             }
@@ -170,16 +162,10 @@
         "linkGithub": "",
         "tags": [
             {
-                "HTML": "fa-brands fa-html5"
-            },
-            {
-                "CSS": "fa-brands fa-css3-alt"
+                "React": "fa-brands fa-react"
             },
             {
                 "SCSS": "fa-brands fa-sass"
-            },
-            {
-                "React": "fa-brands fa-react"
             },
             {
                 "Github": "fa-brands fa-github"

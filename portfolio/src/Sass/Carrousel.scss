@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     position: relative;
     bottom: 60px;
+
     @media (min-width: 1024px) and (max-width: 1440px) {
         width: 100%;
     }
@@ -20,7 +21,7 @@
         background-color: #ffffff;
         display: flex;
         justify-content: center;
-align-items: center;
+        align-items: center;
         @media (min-width: 320px) and (max-width: 767px) {
             width: 25%;
             height: 90px;
@@ -31,11 +32,7 @@ align-items: center;
         @media (min-width: 1024px) and (max-width: 1440px) {
             width: 130px;
             height: 130px;
-    
         }
-        // @media (min-width: 1024px) and (max-width: 1440px) {
-
-        // }
     }
 
     .img-center-wrapper {
@@ -44,7 +41,7 @@ align-items: center;
         position: relative;
         width: 40%;
         height: 270px;
-        overflow: hidden; /* Cache l'effet de zoom si l'image dépasse le conteneur */
+        overflow: hidden;
         @media (min-width: 320px) and (max-width: 767px) {
             width: 25%;
             height: 110px;
@@ -56,23 +53,19 @@ align-items: center;
             width: 160px;
             height: 160px;
             display: flex;
-        justify-content: center;
- 
-      
+            justify-content: center;
         }
     }
 
     .img-center {
         width: 300%;
         height: 100%;
-        //object-fit: cover;
         transition: transform 0.3s ease, filter 0.3s ease;
         border: #fff;
-         
     }
 
     .img-center-wrapper:hover .img-center {
-        transform: scale(1.1); /* Zoom sur l'image */
+        transform: scale(1.1);
     }
 
     .overlay {
@@ -101,19 +94,13 @@ align-items: center;
     .arrow {
         font-size: 40px;
         cursor: pointer;
-        @media (min-width: 320px) and (max-width: 767px) {
-        }
-        @media (min-width: 768px) and (max-width: 1023px) {
-        }
-        @media (min-width: 1024px) and (max-width: 1440px) {
-        }
     }
     .arrow-left {
         position: absolute;
         left: 50px;
         top: 440px;
         @media (min-width: 320px) and (max-width: 767px) {
- left: 30px;
+            left: 30px;
             top: 230px;
         }
         @media (min-width: 768px) and (max-width: 1023px) {
@@ -151,9 +138,6 @@ align-items: center;
         @media (min-width: 768px) and (max-width: 1023px) {
             bottom: 0;
         }
-        // @media (min-width: 320px) and (max-width: 767px) {
-
-        // }
         @media (min-width: 1024px) and (max-width: 1440px) {
             bottom: 10;
         }

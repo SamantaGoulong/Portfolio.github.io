@@ -25,7 +25,6 @@ function Carrousel() {
     const startAutoSlide = useCallback(() => {
         if (!intervalRef.current) {
             intervalRef.current = setInterval(handleNext, 4000); // 4000ms = 4s
-            console.log('Auto slide started');
         }
     }, [handleNext]);
 
@@ -34,7 +33,6 @@ function Carrousel() {
         if (intervalRef.current) {
             clearInterval(intervalRef.current);
             intervalRef.current = null;
-            console.log('Auto slide stopped');
         }
     }, []);
 
@@ -55,7 +53,6 @@ function Carrousel() {
 
     return (
         <div className="carrousel-content">
-            {/* Image à gauche du centre */}
             <img
                 className="img-carrousel img-left"
                 src={
@@ -63,7 +60,7 @@ function Carrousel() {
                 }
                 alt={dataApp[(currentIndex - 1 + dataLength) % dataLength].name}
             />
-            {/* Image au centre */}
+
             <div
                 className="img-carrousel img-center-wrapper"
                 onMouseEnter={() => setIsHovered(true)}
@@ -82,23 +79,19 @@ function Carrousel() {
                     </div>
                 )}
             </div>
-            {/* Image à droite du centre */}
             <img
                 className="img-carrousel img-right"
                 src={dataApp[(currentIndex + 1) % dataLength].image}
                 alt={dataApp[(currentIndex + 1) % dataLength].name}
             />
-            {/* Flèche pour revenir à l'image précédente */}
             <i
                 className="fa-solid fa-angle-left arrow arrow-left"
                 onClick={handlePrev}
             ></i>
-            {/* Flèche pour avancer à l'image suivante */}
             <i
                 className="fa-solid fa-angle-right arrow arrow-right"
                 onClick={handleNext}
             ></i>
-            {/* Section des points (dots) indicateurs en bas du carrousel */}
             <div className="dots">
                 {dataApp.map((_, index) => (
                     <div
@@ -115,4 +108,3 @@ function Carrousel() {
 }
 
 export default Carrousel;
-

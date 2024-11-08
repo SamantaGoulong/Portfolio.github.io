@@ -16,7 +16,6 @@ function CardsRealisations() {
             {/* Affichage des projets visibles */}
             {data.slice(0, visibleProjects).map((item) => (
                 <div className="realisations-card-content" key={item.id}>
-                    {/* Image du projet */}
                     <div className="card-images  zoom-in-out-box">
                         <a
                             href={item.linkGithub}
@@ -30,14 +29,14 @@ function CardsRealisations() {
 
                             <div className="overlay">
                                 <p className="title-project">{item.title}</p>
-                                <p className="description-project">{item.description}</p>
+                                <p className="description-project">
+                                    {item.description}
+                                </p>
                             </div>
                         </a>
                     </div>
-                    {/* Liens et icônes du projet */}
                     <div className="card-links">
                         <div className="card-links-tags">
-                            {/* Affichage des icônes de technologies utilisées */}
                             {item.tags.map((tag, index) => (
                                 <span key={index}>
                                     <i
@@ -51,7 +50,7 @@ function CardsRealisations() {
                     </div>
                 </div>
             ))}
-            {/* Bouton "Voir plus" affiché seulement s'il y a plus de projets à montrer */}
+
             {visibleProjects < data.length && (
                 <div className="container-button">
                     <button
