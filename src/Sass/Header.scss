@@ -1,0 +1,151 @@
+.navbar-container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(10, 15, 39, 0.603);
+    position: fixed;
+    z-index: 10;
+    box-shadow: 1px 1px 25px rgb(86, 87, 87);
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 320px) {
+        width: 100%;
+        display: flex;
+    }
+    .title-navbar {
+        margin: 0 30px;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+    }
+    .nav-content {
+        display: flex;
+        position: relative;
+        border-radius: 8px;
+        height: 100%;
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+    .nav-content a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 15px;
+        position: relative;
+        z-index: 1;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        width: 150px;
+        padding: 0px 5px;
+        text-shadow: 2px 2px 5px black;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+    nav .animation {
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        transition: all 0.5s ease 0s;
+        border-radius: 8px;
+    }
+    .button-hamburger {
+        display: none;
+        color: white;
+        margin-right: 20px;
+        background-color: transparent;
+        border: none;
+        transition: color 0.3s ease;
+        font-size: 25px;
+
+        @media screen and (max-width: 768px) {
+            display: flex;
+            justify-content: center;
+            z-index: 52;
+            transition: transform 0.3s ease;
+
+            i {
+                transition: transform 0.3s ease;
+            }
+
+            &.open i {
+                transform: rotate(90deg);
+            }
+        }
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.747);
+        backdrop-filter: blur(3px);
+        z-index: 20;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        @media screen and (max-width: 768px) {
+            display: flex;
+        }
+
+        .overlay-nav {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            a {
+                color: white;
+                font-size: 24px;
+                margin: 15px 0;
+                text-decoration: none;
+                text-transform: uppercase;
+                transition: color 0.3s ease;
+            }
+        }
+    }
+
+    nav .start-accueil,
+    a:nth-child(1):hover ~ .animation {
+        width: 150px;
+        left: 0;
+        background-color: #92e7eb;
+    }
+    nav .start-presentation,
+    a:nth-child(2):hover ~ .animation {
+        width: 150px;
+        left: 165px;
+        background-color: #0ec9d1;
+    }
+    nav .start-blog,
+    a:nth-child(3):hover ~ .animation {
+        width: 150px;
+        left: 323px;
+        background-color: #099095;
+    }
+    nav .start-portefolio,
+    a:nth-child(4):hover ~ .animation {
+        width: 150px;
+        left: 485px;
+        background-color: #036266;
+    }
+    nav .start-contact,
+    a:nth-child(5):hover ~ .animation {
+        width: 150px;
+        left: 645px;
+        background-color: #02282a;
+    }
+}

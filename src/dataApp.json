@@ -1,0 +1,27 @@
+[
+    {
+        "image": "html5.webp",
+        "name": "Html5",
+        "description": "HTML est un langage informatique utilisé pour créer et organiser le contenu visuel et structurel des pages web, permettant aux navigateurs internet de lire et d'afficher les informations telles que textes, images, liens et vidéos sur Internet."
+    },
+    {
+        "image": "css3.webp",
+        "name": "Css3",
+        "description": " CSS est un langage de feuilles de style utilisé pour styliser et mettre en forme les éléments HTML d'une page web, contrôlant leur apparence visuelle, leur positionnement et leurs effets."
+    },
+    {
+        "image": "sass.webp",
+        "name": "Sass",
+        "description": "  Sass est extension de CSS qui ajoute des fonctionnalités supplémentaires et rend l'écriture de feuilles de style plus efficace en permettant l'utilisation de variables, de mixins, de fonctions et de structures de contrôle."
+    },
+    {
+        "image": "javaScript.webp",
+        "name": "JavaScript",
+        "description": " JavaScript est un langage de programmation utilisé pour créer des interactions dynamiques sur les pages web, permettant d'ajouter des fonctionnalités telles que des animations, des calculs en temps réel, la manipulation du contenu HTML et la gestion des événements utilisateur."
+    },
+    {
+        "image": "react.webp",
+        "name": "React",
+        "description": " React est une bibliothèque JavaScript utilisée pour la création d'interfaces utilisateur interactives et dynamiques, en permettant la construction de composants réutilisables qui gèrent leur propre état et qui peuvent être combinés pour former des applications web complexes."
+    }
+]
