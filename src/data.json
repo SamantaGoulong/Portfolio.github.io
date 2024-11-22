@@ -62,7 +62,7 @@
         "title": "Sophie Bluel",
         "description": "Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.",
         "picture": "Sophie-Bluel.webp",
-        "linkGithub": "https://github.com/SamantaGoulong/projet6.github.io/deployments/github-pages",
+        "linkGithub": "https://github.com/SamantaGoulong/projet6.github.io",
         "tags": [
             {
                 "HTML": "fa-brands fa-html5"
